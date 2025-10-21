@@ -1,0 +1,24 @@
+# Core ML/AI
+transformers==4.38.0
+torch==2.2.0
+accelerate==0.27.0
+
+# Embeddings & Retrieval
+sentence-transformers==2.3.1
+faiss-cpu>=1.8.0
+
+# Fine-tuning
+peft==0.8.0
+datasets==2.16.0
+
+# Interface & Deployment
+gradio==4.19.0
+huggingface-hub==0.20.0
+
+# Utilities
+numpy>=1.26.0
+pandas>=2.1.0
+scikit-learn>=1.3.2
+
+# Development
+python-dotenv==1.0.0
