@@ -52,7 +52,7 @@ class FaissIndex:
         output_path=Path(output_path)
         output_path.mkdir(parents=True,exist_ok=True)
         index_file=output_path/"faiss_index.bin"
-        faiss.write_index(self.index,index_file)
+        faiss.write_index(self.index,str(index_file))
         print(f"Saved FAISS index to {index_file}")
     @classmethod
     def load_index(cls, index_path, embedding_path, documents_path):
