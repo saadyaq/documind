@@ -6,7 +6,8 @@
 
 > Retrieval-Augmented Generation (RAG) chatbot avec fine-tuning LLM et recherche sémantique
 
-**🚧 Projet en développement actif - Semaine du [Date]**
+**🚧 Projet en développement actif - Semaine du 20 octobre**
+
 
 ---
 
