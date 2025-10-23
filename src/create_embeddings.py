@@ -9,6 +9,13 @@ client = InferenceClient(
 
 model=SentenceTransformer('google/embeddinggemma-300m')
 
+
+
+
+
+
+
+
 sentences=[
     "This is an example sentence",
     "How are we feeling today?",
