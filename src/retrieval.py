@@ -21,7 +21,7 @@ class FaissIndex:
         self.index=self._build_index()
 
         print("Loading embedding model")
-        self.model=SentenceTransformer("nvidia/llama-embed-nemotron-8b", trust_remote_code=True)
+        self.model=SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2", trust_remote_code=True)
         print("Model loaded")
     
     def _build_index(self):
@@ -62,9 +62,9 @@ class FaissIndex:
         return retriever
 
 if __name__=="__main__":
-    embedding_path="embeddings/embeddings.npy"
-    documents_path="embeddings/documents_with_embedding.json"
-    faiss_index_path="embeddings/faiss_index"
+    embedding_path="data/train/embeddings/embeddings.npy"
+    documents_path="data/train/embeddings/documents_with_embedding.json"
+    faiss_index_path="data/train/embeddings/faiss_index"
 
     retriever=FaissIndex(embedding_path,documents_path)
     retriever.save_index(faiss_index_path)
