@@ -21,7 +21,7 @@ class FaissIndex:
         self.index=self._build_index()
 
         print("Loading embedding model")
-        self.model=SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2", trust_remote_code=True)
+        self.model=SentenceTransformer("google/embeddinggemma-300m", trust_remote_code=True)
         print("Model loaded")
     
     def _build_index(self):
