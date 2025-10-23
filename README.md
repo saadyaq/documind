@@ -350,19 +350,6 @@ python src/embeddings.py --input data/raw/ --output data/processed/
 
 ---
 
-## 📈 Résultats (à compléter)
-
-### Exemples de questions/réponses
-
-**Question:** [Exemple question]
-
-**Réponse:** [Réponse générée]
-
-**Sources:** 
-- Document 1 (score: 0.89)
-- Document 2 (score: 0.85)
-
----
 
 ## 🤝 Contribution
 
