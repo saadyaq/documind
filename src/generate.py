@@ -34,4 +34,10 @@ def generate_qa_from_chunk(chunk:str, doc_name:str) ->Dict:
             {"role": "user", "content": prompt}
         ]
     )
+
+    response_text=response.content[0].text
+    try:
+        qa_pair=json.loads(response_text)
+    except json.JSONDecodeError:
+        raise ValueError(f"Erreur lors de l'analyse de la réponse JSON: {response_text}")
     
