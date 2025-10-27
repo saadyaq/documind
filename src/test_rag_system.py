@@ -1,4 +1,4 @@
-from transfomers import AutoTokenizer, AutoModelForcausalLM
+from transformers import AutoTokenizer, AutoModelForcausalLM
 from peft import PeftModel
 import torch
 import faiss
@@ -17,4 +17,28 @@ embedding_model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
 index=faiss.read_index("data/train/embeddings/faiss_index")
 
 with open("data/train/embeddings/documents.json", "r", encoding="utf-8") as f:
-    json.load(f)
+    documents = json.load(f)
+
+def rag_query(question,top_k=3):
+    question_embedding=embedding_model.encode([question])
+    distances, indices = index.search(np.array(question_embedding).astype('float32'), top_k)
+
+    contexts=[]
+    for idx in indices[0]:
+        doc=documents[idx]
+        contexts.append(f"[Document {doc['id']}] {doc['text'][:300]}")
+    
+    context="\n".join(contexts)
+    prompt = f"""Question: {question}
+Contexte: {context}
+Réponse:"""
+    inputs=tokenizer(prompt,return_tensors="pt").to(model.device)
+    outputs=model.generate(**inputs,max_new_tokens=256,
+                           do_sample=True,
+                           temperature=0.7,
+                           pad_token_id=tokenizer.eos_token_id)
+    return tokenizer.decode(outputs[0],skip_special_tokens=True)
+
+question = "Qu'est-ce que le deep learning?"
+response = rag_query(question)
+print(response)
