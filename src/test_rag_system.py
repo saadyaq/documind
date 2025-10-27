@@ -1,4 +1,4 @@
-from transformers import AutoTokenizer, AutoModelForcausalLM
+from transformers import AutoTokenizer, AutoModelForCausalLM
 from peft import PeftModel
 import torch
 import faiss
@@ -6,22 +6,23 @@ import numpy as np
 import json 
 from sentence_transformers import SentenceTransformer
 
-base_model=AutoModelForcausalLM.from_pretrained(
+base_model=AutoModelForCausalLM.from_pretrained(
     "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
     device_map="auto",
     torch_dtype=torch.float16,)
 model=PeftModel.from_pretrained(base_model, "./lora_adapter")
 tokenizer=AutoTokenizer.from_pretrained("./lora_adapter")
 
-embedding_model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
-index=faiss.read_index("data/train/embeddings/faiss_index")
+embedding_model = SentenceTransformer('google/embeddinggemma-300m', trust_remote_code=True)
+index=faiss.read_index("data/train/embeddings/faiss_index/faiss_index.bin")
 
-with open("data/train/embeddings/documents.json", "r", encoding="utf-8") as f:
+with open("data/train/embeddings/documents_with_embedding.json", "r", encoding="utf-8") as f:
     documents = json.load(f)
 
 def rag_query(question,top_k=3):
     question_embedding=embedding_model.encode([question])
-    distances, indices = index.search(np.array(question_embedding).astype('float32'), top_k)
+    question_embedding=question_embedding.astype('float32')
+    distances, indices = index.search(question_embedding, top_k)
 
     contexts=[]
     for idx in indices[0]:
