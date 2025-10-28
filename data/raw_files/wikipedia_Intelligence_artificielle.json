@@ -1,0 +1,1065 @@
+[
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Summary",
+    "section_path": [],
+    "content": "L'intelligence artificielle (IA) est l'ensemble des programmes ou algorithmes permettant aux machines d'effectuer des t\u00e2ches typiquement associ\u00e9es \u00e0 l'intelligence humaine, comme l'apprentissage, le raisonnement, la r\u00e9solution de probl\u00e8me, la perception ou la prise de d\u00e9cision. L'intelligence artificielle est \u00e9galement le champ de recherche visant \u00e0 d\u00e9velopper de telles machines ainsi que les syst\u00e8mes informatiques qui en r\u00e9sultent.\nSouvent class\u00e9e dans le domaine des math\u00e9matiques et des sciences cognitives, l'IA fait appel \u00e0 des disciplines telles que la neurobiologie computationnelle (qui a notamment inspir\u00e9 les r\u00e9seaux neuronaux artificiels), les statistiques, ou l'alg\u00e8bre lin\u00e9aire. Elle vise \u00e0 r\u00e9soudre des probl\u00e8mes \u00e0 forte complexit\u00e9 logique ou algorithmique. Par extension, dans le langage courant, l'IA inclut les dispositifs imitant ou rempla\u00e7ant l'homme dans certaines mises en \u0153uvre de ses fonctions cognitives.\nLes applications de l'IA couvrent de nombreux domaines, notamment les moteurs de recherche, les syst\u00e8mes de recommandation, l'aide au diagnostic m\u00e9dical, la compr\u00e9hension du langage naturel, les voitures autonomes, les chatbots, les outils de g\u00e9n\u00e9ration d'images, les outils de prise de d\u00e9cision automatis\u00e9e, les programmes comp\u00e9titifs dans des jeux de strat\u00e9gie et certains personnages non-joueurs de jeu vid\u00e9o.\nLe champ de recherche, \u00e9tabli en 1956, a connu des p\u00e9riodes d'optimisme et de d\u00e9ception au cours du 20e si\u00e8cle. D\u00e8s 2012, l'utilisation de processeurs graphiques a permis de largement acc\u00e9l\u00e9rer les r\u00e9seaux de neurones, favorisant l'adoption de l'apprentissage automatique au d\u00e9triment d\u2019approches reposant sur des r\u00e8gles explicitement programm\u00e9es. Cette tendance s'est renforc\u00e9e en 2017 avec l'apparition de l'architecture transformeur et des grands mod\u00e8les de langage, qui sont entra\u00een\u00e9s sur de grandes quantit\u00e9s de texte issu d'internet. En 2022, l'IA g\u00e9n\u00e9rative a \u00e9t\u00e9 largement popularis\u00e9e avec la sortie de ChatGPT. Des mod\u00e8les de g\u00e9n\u00e9ration de musique, d'images ou de vid\u00e9os ont \u00e9galement vu le jour.\nL'IA suscite des inqui\u00e9tudes concernant l'emploi, la d\u00e9sinformation, son impact environnemental, et la protection des donn\u00e9es personnelles. Certains estiment que les progr\u00e8s en intelligence artificielle pourraient repr\u00e9senter un risque existentiel.",
+    "is_summary": true
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "D\u00e9finition",
+    "section_path": [
+      "D\u00e9finition"
+    ],
+    "content": "L\u2019expression \u00ab intelligence artificielle \u00bb, souvent abr\u00e9g\u00e9e par le sigle \u00ab IA \u00bb (ou \u00ab AI \u00bb en anglais, pour artificial intelligence) a \u00e9t\u00e9 introduite en 1956 par John McCarthy, qui l\u2019a d\u00e9finie en 2004 comme \u00ab la science et l'ing\u00e9nierie de la fabrication de machines intelligentes, en particulier de programmes informatiques intelligents. Elle est li\u00e9e \u00e0 la t\u00e2che similaire qui consiste \u00e0 utiliser des ordinateurs pour comprendre l'intelligence humaine, mais l'IA ne doit pas se limiter aux m\u00e9thodes qui sont biologiquement observables \u00bb.\nPour Marvin Lee Minsky, l'un de ses cr\u00e9ateurs, l'IA est \u00ab la construction de programmes informatiques qui s'adonnent \u00e0 des t\u00e2ches qui sont, pour l'instant, accomplies de fa\u00e7on plus satisfaisante par des \u00eatres humains car elles demandent des processus mentaux de haut niveau tels que : l'apprentissage perceptuel, l'organisation de la m\u00e9moire et le raisonnement critique \u00bb. Cette d\u00e9finition combine l'aspect \u00ab artificiel \u00bb des ordinateurs et des processus informatiques, aux aspects \u00ab intelligents \u00bb d'imitation de comportements humains, notamment de raisonnement et d'apprentissage. Celui-ci est \u00e0 l'\u0153uvre dans les jeux, dans la pratique des math\u00e9matiques, dans la compr\u00e9hension du langage naturel, dans la perception visuelle (interpr\u00e9tation des images et des sc\u00e8nes), auditive (compr\u00e9hension du langage parl\u00e9) ou par d'autres capteurs, dans la commande d'un robot dans un milieu inconnu ou hostile.\nAvant les ann\u00e9es 2000, d'autres d\u00e9finitions sont proches de celle de Minsky, mais varient sur deux points fondamentaux :\n\nles d\u00e9finitions qui lient l'IA \u00e0 un aspect humain de l'intelligence et celles qui la lient \u00e0 un mod\u00e8le id\u00e9al d'intelligence, non forc\u00e9ment humaine, nomm\u00e9e rationalit\u00e9 ;\nles d\u00e9finitions qui insistent sur le fait que l'IA a pour but d'avoir toutes les apparences de l'intelligence (humaine ou rationnelle), et celles qui insistent sur le fait que le fonctionnement interne du syst\u00e8me d'IA doit ressembler \u00e9galement \u00e0 celui de l'\u00eatre humain et \u00eatre au moins aussi rationnel.\n\nLe grand public confond souvent l'intelligence artificielle avec l'apprentissage automatique (machine learning) et l'apprentissage profond (deep learning). Ces trois notions diff\u00e8rent et sont en r\u00e9alit\u00e9 imbriqu\u00e9es : l'intelligence artificielle englobe l'apprentissage automatique, qui lui-m\u00eame englobe l'apprentissage profond.\nLes d\u00e9finitions font souvent intervenir :\n\nune capacit\u00e9 \u00e0 percevoir l'environnement et \u00e0 prendre en compte la complexit\u00e9 du monde r\u00e9el ;\nun traitement de l'information (collecter et interpr\u00e9ter des intrants, capt\u00e9s sous forme de donn\u00e9es) ;\ndes prises de d\u00e9cision (y compris dans le raisonnement et l'apprentissage), choix d'actions, ex\u00e9cution de t\u00e2ches (dont d'adaptation, de r\u00e9action aux changements de contexte\u2026), avec un certain niveau d'autonomie ;\nla r\u00e9alisation d'objectifs sp\u00e9cifiques (raison ultime des syst\u00e8mes d'IA).\nLe groupe AI Watch note que les IA peuvent aussi \u00eatre class\u00e9es en fonction des familles d\u2019algorithmes et/ou des mod\u00e8les th\u00e9oriques qui les sous-tendent, des capacit\u00e9s cognitives reproduites par l\u2019IA, des fonctions ex\u00e9cut\u00e9es par l\u2019IA. Les applications de l\u2019IA peuvent, elles, \u00eatre class\u00e9es en fonction du secteur socio\u00e9conomique et/ou des fonctions qu'elles y remplissent.\nUne mani\u00e8re de d\u00e9finir l'intelligence artificielle est de consid\u00e9rer ses applications et les types de t\u00e2ches qu'elle r\u00e9sout. Un rapport de la Commission europ\u00e9enne publi\u00e9 en 2020 pr\u00e9sente une taxonomie classant les d\u00e9finitions de l'IA selon diverses t\u00e2ches r\u00e9alis\u00e9es, telles que le raisonnement, l'apprentissage, la perception, etc.. La m\u00eame ann\u00e9e, le professeur Jack Copeland propose une d\u00e9finition similaire, qui permet de distinguer plus clairement les facettes de l'IA, selon cinq cat\u00e9gories principales :\n\nL'apprentissage g\u00e9n\u00e9ralis\u00e9 : l'IA apprend \u00e0 partir de donn\u00e9es diverses pour identifier des mod\u00e8les et appliquer ces connaissances \u00e0 de nouvelles situations, comme d\u00e9tecter des fraudes en ligne ;\nLe raisonnement : cette capacit\u00e9 permet \u00e0 l'IA de faire des pr\u00e9dictions et tirer des conclusions \u00e0 partir des donn\u00e9es, aidant dans des d\u00e9cisions comme la pr\u00e9diction de comportements d'achat ;\nLa r\u00e9solution de probl\u00e8mes : l'IA trouve des solutions optimales pour des probl\u00e8mes sp\u00e9cifiques, utilis\u00e9e dans des contextes comme l'optimisation industrielle ou les strat\u00e9gies de jeu ;\nLa perception : elle permet \u00e0 l'IA de reconna\u00eetre et interagir avec son environnement, utilis\u00e9e dans la robotique avanc\u00e9e et les v\u00e9hicules autonomes pour naviguer et accomplir des t\u00e2ches ;\nLa compr\u00e9hension du langage : l'IA analyse et g\u00e9n\u00e8re du langage \u00e0 travers le NLP, utilis\u00e9 dans des applications comme les assistants vocaux et les chatbots pour am\u00e9liorer l'interaction utilisateur.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Apprentissage automatique",
+    "section_path": [
+      "Techniques",
+      "Apprentissage automatique"
+    ],
+    "content": "L'apprentissage automatique consiste \u00e0 permettre au mod\u00e8le d'IA d'apprendre \u00e0 effectuer une t\u00e2che au lieu de sp\u00e9cifier exactement comment il doit l'accomplir. Le mod\u00e8le contient des param\u00e8tres dont les valeurs sont ajust\u00e9es tout au long de l'apprentissage. La m\u00e9thode de la r\u00e9tropropagation du gradient est capable de d\u00e9tecter, pour chaque param\u00e8tre, dans quelle mesure il a contribu\u00e9 \u00e0 une bonne r\u00e9ponse ou \u00e0 une erreur du mod\u00e8le, et peut l'ajuster en cons\u00e9quence. L'apprentissage automatique n\u00e9cessite un moyen d'\u00e9valuer la qualit\u00e9 des r\u00e9ponses fournies par le mod\u00e8le. Les principales m\u00e9thodes d'apprentissage sont :\n\nApprentissage supervis\u00e9\nUn jeu de donn\u00e9es annot\u00e9 est utilis\u00e9 pour entra\u00eener l'algorithme. Il contient des donn\u00e9es d'entr\u00e9e fournies au mod\u00e8le et les r\u00e9ponses correspondantes attendues, que le mod\u00e8le est entra\u00een\u00e9 \u00e0 produire. Il est parfois difficile de se procurer suffisamment de donn\u00e9es annot\u00e9es avec les r\u00e9ponses attendues.\nApprentissage non supervis\u00e9\nUn jeu de donn\u00e9es est fourni au mod\u00e8le, mais n'est pas annot\u00e9 avec les r\u00e9ponses attendues. Le but peut par exemple \u00eatre de regrouper les donn\u00e9es similaires entre elles (clustering).\nApprentissage auto-supervis\u00e9\nUn probl\u00e8me d'apprentissage supervis\u00e9 est automatiquement g\u00e9n\u00e9r\u00e9 \u00e0 partir d'un jeu de donn\u00e9es non annot\u00e9. Cela fonctionne souvent en cachant une partie des informations (des mots d'un texte, des morceaux d'images\u2026) afin d'entra\u00eener le mod\u00e8le \u00e0 les pr\u00e9dire.\nApprentissage par renforcement\nL'agent est plong\u00e9 dans un environnement o\u00f9 ce qu'il fait est \u00e9valu\u00e9. Par exemple, un agent peut apprendre \u00e0 jouer aux \u00e9checs en jouant contre lui-m\u00eame, et le r\u00e9sultat (victoire ou d\u00e9faite) permet \u00e0 chaque it\u00e9ration d'\u00e9valuer s'il a bien jou\u00e9. Il n'y a dans ce cas pas besoin de jeu de donn\u00e9es.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "R\u00e9seaux de neurones",
+    "section_path": [
+      "Techniques",
+      "Apprentissage automatique",
+      "R\u00e9seaux de neurones"
+    ],
+    "content": "Les r\u00e9seaux de neurones artificiels sont inspir\u00e9s du fonctionnement du cerveau humain : les neurones sont en g\u00e9n\u00e9ral connect\u00e9s \u00e0 d'autres neurones en entr\u00e9e et en sortie. Les neurones d'entr\u00e9e, lorsqu'ils sont activ\u00e9s, agissent comme s'ils participaient \u00e0 un vote pond\u00e9r\u00e9 pour d\u00e9terminer si un neurone interm\u00e9diaire doit \u00eatre activ\u00e9 et ainsi transmettre un signal vers les neurones de sortie. En pratique, pour l'\u00e9quivalent artificiel, les \u00ab neurones d'entr\u00e9e \u00bb ne sont que des nombres et les poids de ce \u00ab vote pond\u00e9r\u00e9 \u00bb sont des param\u00e8tres ajust\u00e9s lors de l'apprentissage.\nHormis la fonction d'activation, les r\u00e9seaux de neurones artificiels n'effectuent en pratique que des additions et des multiplications matricielles, ce qui fait qu'ils peuvent \u00eatre acc\u00e9l\u00e9r\u00e9s par l'utilisation de processeurs graphiques. En th\u00e9orie, un r\u00e9seau de neurones peut approximer n'importe quelle fonction.\nPour de simples r\u00e9seaux de neurones \u00e0 propagation avant (feedforward en anglais), le signal ne passe que dans une direction. Avec les r\u00e9seaux de neurones r\u00e9currents, le signal de sortie de chaque neurone est r\u00e9inject\u00e9 en entr\u00e9e de ce neurone, permettant d\u2019impl\u00e9menter un m\u00e9canisme de m\u00e9moire \u00e0 court terme. Les r\u00e9seaux neuronaux convolutifs, qui sont particuli\u00e8rement utilis\u00e9s en traitement d'images, introduisent une notion de localit\u00e9. Leurs premi\u00e8res couches identifient des motifs relativement basiques et locaux comme des contours, l\u00e0 o\u00f9 les derni\u00e8res couches traitent de motifs plus complexes et globaux.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Apprentissage profond",
+    "section_path": [
+      "Techniques",
+      "Apprentissage automatique",
+      "R\u00e9seaux de neurones",
+      "Apprentissage profond"
+    ],
+    "content": "L'apprentissage profond (deep learning en anglais) utilise de multiples couches de neurones entre les entr\u00e9es et les sorties, d'o\u00f9 le terme \u00ab profond \u00bb. L'utilisation de processeurs graphiques pour acc\u00e9l\u00e9rer les calculs et l'augmentation des donn\u00e9es disponibles a contribu\u00e9 \u00e0 la mont\u00e9e en popularit\u00e9 de l'apprentissage profond. Il est utilis\u00e9 notamment en vision par ordinateur, en reconnaissance automatique de la parole et en traitement automatique des langues (ce qui inclut les grands mod\u00e8les de langage).",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Grands mod\u00e8les de langages",
+    "section_path": [
+      "Techniques",
+      "Apprentissage automatique",
+      "R\u00e9seaux de neurones",
+      "Grands mod\u00e8les de langages"
+    ],
+    "content": "Les grands mod\u00e8les de langage sont des mod\u00e8les de langage ayant des milliards de param\u00e8tres. Ils reposent tr\u00e8s souvent sur l'architecture transformeur.\nLes transformeurs g\u00e9n\u00e9ratifs pr\u00e9entra\u00een\u00e9s (Generative Pretrained Transformers ou GPT en anglais) sont un type particuli\u00e8rement populaire de grand mod\u00e8le de langage. Leur \u00ab pr\u00e9-entra\u00eenement \u00bb consiste \u00e0 pr\u00e9dire, \u00e9tant donn\u00e9e une partie d'un texte, le token suivant (un token \u00e9tant une s\u00e9quence de caract\u00e8res, typiquement un mot, une partie d'un mot, ou de la ponctuation). Cet entra\u00eenement \u00e0 pr\u00e9dire ce qui va suivre, r\u00e9p\u00e9t\u00e9 pour un grand nombre de textes, permet \u00e0 ces mod\u00e8les d'accumuler des connaissances sur le monde. Ils peuvent ensuite g\u00e9n\u00e9rer du texte semblable \u00e0 celui ayant servi au pr\u00e9-entra\u00eenement, en pr\u00e9disant un \u00e0 un les tokens suivants. En g\u00e9n\u00e9ral, une autre phase d'entra\u00eenement est ensuite effectu\u00e9e pour rendre le mod\u00e8le plus v\u00e9ridique, utile et inoffensif. Cette phase d'entra\u00eenement (utilisant souvent une technique appel\u00e9e RLHF) permet notamment de r\u00e9duire un ph\u00e9nom\u00e8ne appel\u00e9 \u00ab hallucination \u00bb, o\u00f9 le mod\u00e8le g\u00e9n\u00e8re des informations d'apparence plausible mais fausses.\nAvant d'\u00eatre fourni au mod\u00e8le, le texte est d\u00e9coup\u00e9 en tokens. Ceux-ci sont convertis en vecteurs qui en encodent le sens ainsi que la position dans le texte. \u00c0 l'int\u00e9rieur de ces mod\u00e8les se trouve une alternance de r\u00e9seaux de neurones et de couches d'attention. Les couches d'attention combinent les concepts entre eux, permettant de tenir compte du contexte et de saisir des relations complexes.\nCes mod\u00e8les sont souvent int\u00e9gr\u00e9s dans des agents conversationnels, aussi appel\u00e9s chatbots, o\u00f9 le texte g\u00e9n\u00e9r\u00e9 est format\u00e9 pour r\u00e9pondre \u00e0 l'utilisateur. Par exemple, l'agent conversationnel ChatGPT exploite les mod\u00e8les GPT-3.5 et GPT-4. En 2023 font leur apparition des mod\u00e8les grand public pouvant traiter simultan\u00e9ment diff\u00e9rents types de donn\u00e9es comme le texte, le son, les images et les vid\u00e9os, tel Google Gemini.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Recherche locale",
+    "section_path": [
+      "Techniques",
+      "Recherche et optimisation",
+      "Recherche locale"
+    ],
+    "content": "La recherche locale, ou recherche par optimisation, repose sur l'optimisation math\u00e9matique pour trouver une solution num\u00e9rique \u00e0 un probl\u00e8me, en am\u00e9liorant progressivement la solution choisie.\nEn particulier, en apprentissage automatique, la descente de gradient permet de trouver une solution localement optimale, \u00e9tant donn\u00e9 une fonction de co\u00fbt \u00e0 minimiser en faisant varier les param\u00e8tres du mod\u00e8le. Elle consiste, \u00e0 chaque \u00e9tape, \u00e0 modifier les param\u00e8tres \u00e0 optimiser dans la direction qui permet de r\u00e9duire le mieux la fonction de co\u00fbt. La solution obtenue est localement optimale, mais il se peut qu'il y ait globalement de meilleures solutions, qui auraient pu \u00eatre obtenues avec diff\u00e9rentes valeurs initiales de param\u00e8tres. Les mod\u00e8les d'IA modernes peuvent avoir des milliards de param\u00e8tres \u00e0 optimiser, et utilisent souvent des variantes plus complexes et efficaces de la descente de gradient.\nLes algorithmes \u00e9volutionnistes, inspir\u00e9s de la th\u00e9orie de l'\u00e9volution, utilisent une forme de recherche par optimisation. \u00c0 chaque \u00e9tape, des op\u00e9rations telles que la \u00ab mutation \u00bb ou le \u00ab croisement \u00bb sont effectu\u00e9es de mani\u00e8re al\u00e9atoire pour obtenir diff\u00e9rentes variantes, et les variantes les mieux adapt\u00e9es sont s\u00e9lectionn\u00e9es pour l'\u00e9tape suivante.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Recherche dans l'espace des \u00e9tats",
+    "section_path": [
+      "Techniques",
+      "Recherche et optimisation",
+      "Recherche dans l'espace des \u00e9tats"
+    ],
+    "content": "La recherche dans l'espace des \u00e9tats vise \u00e0 trouver un \u00e9tat accomplissant l'objectif \u00e0 travers un arbre des \u00e9tats possibles. Par exemple, la recherche antagoniste est utilis\u00e9e pour des programmes jouant \u00e0 des jeux tels que les \u00e9checs ou le go. Elle consiste \u00e0 parcourir l'arbre des coups possibles par le joueur et son adversaire, \u00e0 la recherche d'un coup gagnant. La simple recherche exhaustive est rarement suffisante en pratique vu le nombre d'\u00e9tats possibles. Des heuristiques sont utilis\u00e9es pour prioriser les chemins les plus prometteurs.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Intelligence artificielle quantique",
+    "section_path": [
+      "Techniques",
+      "Intelligence artificielle quantique"
+    ],
+    "content": "L'IA quantique est un domaine de recherche interdisciplinaire qui vise \u00e0 exploiter les propri\u00e9t\u00e9s uniques de la physique quantique (dont la superposition quantique et l'intrication quantique) pour r\u00e9soudre des probl\u00e8mes complexes inaccessibles aux IA classiques, au moyen d'ordinateurs quantiques ex\u00e9cutant de nouveaux types d'algorithmes. Certains experts estiment que l'informatique quantique pourrait \u00e0 long terme am\u00e9liorer les performances des syst\u00e8mes d'apprentissage automatique.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Comportements pr\u00e9d\u00e9finis (imitation d'intelligence)",
+    "section_path": [
+      "Techniques",
+      "Comportements pr\u00e9d\u00e9finis (imitation d'intelligence)"
+    ],
+    "content": "Pour les intelligences artificielles servant principalement \u00e0 donner une impression d'intelligence dans un cadre contr\u00f4l\u00e9, notamment pour les personnages non-joueurs des jeux vid\u00e9o, il est courant que l'apprentissage automatique ne soit pas utilis\u00e9. Un ensemble de fonctions et comportements plus pr\u00e9cises et moins flexibles sont alors impl\u00e9ment\u00e9s.\nIl s'agit souvent de liste de textes ou paroles pr\u00e9d\u00e9finis, aux d\u00e9clenchements parfois conditionnels, par exemple un choix de mouvements suivant une s\u00e9rie de r\u00e8gles et des d\u00e9placements de recherche de chemin.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Logique",
+    "section_path": [
+      "Techniques",
+      "Logique"
+    ],
+    "content": "La logique formelle est utilis\u00e9e pour le raisonnement et la repr\u00e9sentation des connaissances. Elle se d\u00e9cline en deux principales formes, la logique propositionnelle et la logique pr\u00e9dicative. La logique propositionnelle op\u00e8re sur des affirmations qui sont vraies ou fausses, et utilise la logique connective avec des op\u00e9rateurs tels que \u00ab et \u00bb, \u00ab ou \u00bb, \u00ab non \u00bb et \u00ab implique \u00bb. La logique pr\u00e9dicative \u00e9tend la logique propositionnelle et peut aussi op\u00e9rer sur des objets, pr\u00e9dicats ou relations. Elle peut utiliser des quantificateurs comme dans \u00ab Chaque X est un Y \u00bb ou \u00ab Certains X sont des Y \u00bb.\nL'inf\u00e9rence logique (ou d\u00e9duction) est le processus qui consiste \u00e0 fournir \u2014 \u00e0 l'aide d'un moteur d'inf\u00e9rence \u2014 une nouvelle affirmation (la conclusion) \u00e0 partir d'autres affirmations connues comme \u00e9tant vraies (les pr\u00e9misses). Une r\u00e8gle d'inf\u00e9rence d\u00e9crit les \u00e9tapes valides d'une preuve ; la plus g\u00e9n\u00e9rale est la r\u00e8gle de r\u00e9solution. L'inf\u00e9rence peut \u00eatre r\u00e9duite \u00e0 la recherche d'un chemin amenant des pr\u00e9misses aux conclusions, o\u00f9 chaque \u00e9tape est une application d'une r\u00e8gle d'inf\u00e9rence. Mais \u00e0 part pour de courtes preuves dans des domaines restreints, la recherche exhaustive prend beaucoup de temps.\nLa logique floue assigne des valeurs de v\u00e9rit\u00e9 entre 0 et 1, permettant de g\u00e9rer des affirmations vagues, comme \u00ab il fait chaud \u00bb. La logique non monotone permet d'annuler certaines conclusions. Diverses autres formes de logique sont d\u00e9velopp\u00e9es pour d\u00e9crire de nombreux domaines complexes.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "M\u00e9thodes probabilistes et gestion de l'incertitude",
+    "section_path": [
+      "Techniques",
+      "M\u00e9thodes probabilistes et gestion de l'incertitude"
+    ],
+    "content": "De nombreux probl\u00e8mes en IA (raisonnement, planification, apprentissage, perception, robotique, etc.) n\u00e9cessitent de pouvoir op\u00e9rer \u00e0 partir d'informations incompl\u00e8tes ou incertaines.\nCertaines techniques reposent sur l'inf\u00e9rence bay\u00e9sienne, qui fournit une formule pour mettre \u00e0 jour des probabilit\u00e9s subjectives \u00e9tant donn\u00e9es de nouvelles informations. C'est notamment le cas des r\u00e9seaux bay\u00e9siens. L'inf\u00e9rence bay\u00e9sienne n\u00e9cessite souvent d'\u00eatre approxim\u00e9e pour pouvoir \u00eatre calcul\u00e9e.\nLes m\u00e9thodes de Monte-Carlo sont un ensemble de techniques pour r\u00e9soudre des probl\u00e8mes complexes en effectuant al\u00e9atoirement de nombreuses simulations afin d'approximer la solution.\nLes r\u00e9seaux de neurones peuvent aussi \u00eatre optimis\u00e9s pour fournir des estimations probabilistes.\n\nDes outils math\u00e9matiques pr\u00e9cis ont \u00e9t\u00e9 d\u00e9velopp\u00e9s pour analyser comment des agents intelligents peuvent faire des choix et des plans en utilisant la th\u00e9orie de la d\u00e9cision, la maximisation de l'esp\u00e9rance et la th\u00e9orie de la valeur de l'information. Ces techniques comprennent des mod\u00e8les tels que les processus de d\u00e9cision markoviens, la th\u00e9orie des jeux et les m\u00e9canismes d'incitation.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Classifieurs et m\u00e9thodes statistiques",
+    "section_path": [
+      "Techniques",
+      "Classifieurs et m\u00e9thodes statistiques"
+    ],
+    "content": "De nombreux mod\u00e8les d'IA ont pour but d'assigner une cat\u00e9gorie (classification), une valeur (r\u00e9gression) ou une action \u00e0 des donn\u00e9es fournies. Les m\u00e9thodes de classification comprennent arbres de d\u00e9cision, k plus proches voisins, machine \u00e0 vecteurs de support ou classification bay\u00e9sienne na\u00efve. Les r\u00e9seaux de neurones peuvent \u00e9galement faire de la classification.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Histoire",
+    "section_path": [
+      "Histoire"
+    ],
+    "content": "Comme pr\u00e9curseur \u00e0 l'intelligence artificielle, divers automates ont \u00e9t\u00e9 cr\u00e9\u00e9s au cours de l'histoire, dont le canard de Vaucanson ou les automates d'Al-Jazari. Certains automates remontent \u00e0 l'Antiquit\u00e9 et \u00e9taient utilis\u00e9s pour des c\u00e9r\u00e9monies religieuses. Des mythes et rumeurs rapportent \u00e9galement la cr\u00e9ation d'\u00eatres intelligents, par exemple les golems.\nDes philosophes et math\u00e9maticiens comme Raymond Lulle, Leibniz ou George Boole ont cherch\u00e9 \u00e0 formaliser le raisonnement et la g\u00e9n\u00e9ration d'id\u00e9es.\nAu XXe si\u00e8cle, Alan Turing a notamment invent\u00e9 un mod\u00e8le de calcul par la suite appel\u00e9 machine de Turing, explor\u00e9 la notion de calculabilit\u00e9 et d'intelligence des machines, et propos\u00e9 le \u00ab jeu de l'imitation \u00bb (test de Turing) pour \u00e9valuer l'intelligence de futures machines. Le terme \u00ab intelligence artificielle \u00bb a \u00e9t\u00e9 mis en avant par John McCarthy lors de la conf\u00e9rence de Dartmouth en 1956, o\u00f9 l'intelligence artificielle a \u00e9t\u00e9 \u00e9tablie en tant que discipline \u00e0 part enti\u00e8re. Dans les ann\u00e9es qui ont suivi, des chercheurs ont propos\u00e9 diverses preuves de concept, dans des situations sp\u00e9cifiques, de ce que les machines peuvent faire en th\u00e9orie. Par exemple, le programme ELIZA pouvait se faire passer pour un psychoth\u00e9rapeute, et le Logic Theorist pouvait d\u00e9montrer des th\u00e9or\u00e8mes.\nLa fin du si\u00e8cle a \u00e9t\u00e9 marqu\u00e9e par des p\u00e9riodes d'enthousiasme, et deux p\u00e9riodes de d\u00e9sillusion et de gel des financements appel\u00e9es \u00ab hivers de l'IA \u00bb, la premi\u00e8re de 1974 \u00e0 1980 et la seconde de 1987 \u00e0 1993. Les syst\u00e8mes experts ont \u00e9t\u00e9 particuli\u00e8rement populaires dans les ann\u00e9es 1980, malgr\u00e9 leur fragilit\u00e9 et la difficult\u00e9 \u00e0 impl\u00e9menter manuellement les bonnes r\u00e8gles d'inf\u00e9rences. Des techniques d'apprentissage automatique se sont d\u00e9velopp\u00e9es (r\u00e9seaux de neurones, r\u00e9tropropagation du gradient, algorithmes g\u00e9n\u00e9tiques) ainsi que l'approche connexionniste. Mais les faibles puissances de calcul et le manque de donn\u00e9es d'entra\u00eenement limitaient leur efficacit\u00e9. Certains domaines n'ont progressivement plus \u00e9t\u00e9 consid\u00e9r\u00e9s comme faisant partie de l'intelligence artificielle, \u00e0 mesure qu'une solution efficace \u00e9tait trouv\u00e9e ; un ph\u00e9nom\u00e8ne parfois appel\u00e9 \u00ab effet IA \u00bb. En 1997, pour la premi\u00e8re fois, un supercalculateur a gagn\u00e9 plusieurs parties au jeu d'\u00e9chec contre le champion du monde.\n\nDans les ann\u00e9es 2000, le Web 2.0, le big data et de nouvelles infrastructures et capacit\u00e9s de calcul ont permis l'exploration de masses de donn\u00e9es sans pr\u00e9c\u00e9dent. En 2005, le projet Blue Brain a d\u00e9but\u00e9, ayant pour objectif de simuler le cerveau de mammif\u00e8res. En 2012, le r\u00e9seau neuronal convolutif AlexNet a lanc\u00e9 l'utilisation de processeurs graphiques pour entra\u00eener des r\u00e9seaux de neurones, d\u00e9cuplant ainsi les capacit\u00e9s de calcul d\u00e9di\u00e9es \u00e0 l'apprentissage. En 2016, un programme a gagn\u00e9 quatre des cinq parties de go jou\u00e9es contre Lee Sedol, l'un des meilleurs joueurs au monde. Des organisations visant \u00e0 cr\u00e9er une intelligence artificielle g\u00e9n\u00e9rale ont vu le jour, comme DeepMind en 2010 et OpenAI en 2015. D\u00e8s les ann\u00e9es 2010, des outils d'intelligence artificielle (sp\u00e9cialis\u00e9e ou g\u00e9n\u00e9rative) ont accompli des progr\u00e8s spectaculaires, mais restent loin des performances du vivant dans beaucoup de ses aptitudes naturelles, en particulier sur son aptitude \u00e0 apprendre rapidement \u00e0 partir d'un faible volume d'information (par induction), selon le magazine Slate en 2019.\nEn 2017, des chercheurs de Google ont propos\u00e9 l'architecture transformeur, qui a servi de base aux grands mod\u00e8les de langage. En 2018, Yann Le Cun, Yoshua Bengio et Geoffrey Hinton ont remport\u00e9 le prix Turing pour leurs travaux sur l'apprentissage profond.\nEn 2022, des programmes g\u00e9n\u00e9rant des images \u00e0 partir de descriptions textuelles, comme Midjourney ou DALL-E 2, se sont popularis\u00e9s. La m\u00eame ann\u00e9e, l'agent conversationnel ChatGPT a connu une croissance in\u00e9dite, gagnant un million d'utilisateurs en seulement cinq jours et cent millions d'utilisateurs en deux mois, ce qui a accentu\u00e9 un ph\u00e9nom\u00e8ne de \u00ab course \u00bb \u00e0 l'IA. En 2023, les progr\u00e8s rapides de l'IA ont suscit\u00e9 des inqui\u00e9tudes quant \u00e0 un potentiel risque d'extinction de l'humanit\u00e9. Des mod\u00e8les de fondation \u00ab multimodaux \u00bb, c'est-\u00e0-dire capables de traiter simultan\u00e9ment plusieurs modalit\u00e9s (texte, images, son) ont \u00e9merg\u00e9, tels que Google Gemini et GPT-4o.\nDe nouvelles infrastructures mat\u00e9rielles se sont d\u00e9velopp\u00e9es, exploitant notamment les processeurs graphiques Blackwell et les TPU. Des recherches explorent \u00e9galement les potentielles applications de l'ordinateur quantique en AI. Le concept d'\u00ab usine d'IA \u00bb s'est \u00e9galement concr\u00e9tis\u00e9, qui comprend des infrastructures int\u00e9gr\u00e9es combinant production et entra\u00eenement de mod\u00e8les \u00e0 grande \u00e9chelle avec des supercalculateurs et des centres de donn\u00e9es d\u00e9di\u00e9s. En 2025, plusieurs projets de ce type \u00e9taient annonc\u00e9s, notamment aux \u00c9tats-Unis et en Europe, comme le partenariat entre l'Allemagne et Nvidia.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Intelligence artificielle g\u00e9n\u00e9rale",
+    "section_path": [
+      "Intelligence artificielle g\u00e9n\u00e9rale"
+    ],
+    "content": "L'intelligence artificielle g\u00e9n\u00e9rale (IAG) comprend tout syst\u00e8me informatique capable d'effectuer ou d'apprendre pratiquement n'importe quelle t\u00e2che cognitive propre aux humains ou autres animaux. Elle peut alternativement \u00eatre d\u00e9finie comme un syst\u00e8me informatique surpassant les humains dans la plupart des t\u00e2ches ayant un int\u00e9r\u00eat \u00e9conomique.\nL'intelligence artificielle g\u00e9n\u00e9rale a longtemps \u00e9t\u00e9 consid\u00e9r\u00e9e comme un sujet purement sp\u00e9culatif. Certains travaux de recherche ont d\u00e9j\u00e0 d\u00e9crit GPT-4 comme ayant des \u00ab \u00e9tincelles \u00bb d'intelligence artificielle g\u00e9n\u00e9rale. Les experts en intelligence artificielle affichent de larges d\u00e9saccords et incertitudes quant \u00e0 la date potentielle de conception des premi\u00e8res intelligences artificielles g\u00e9n\u00e9rales (parfois appel\u00e9es \u00ab intelligences artificielles de niveau humain \u00bb), leur impact sur la soci\u00e9t\u00e9, et leur potentiel \u00e0 d\u00e9clencher une \u00ab explosion d'intelligence \u00bb.\nUn sondage de 2022 sugg\u00e8re que 90 % des experts en IA pensent que l'IAG a plus d'une chance sur deux d'\u00eatre r\u00e9alis\u00e9e dans les 100 ans, autour d'une date m\u00e9diane de 2061.\nUne superintelligence artificielle est un type hypoth\u00e9tique d'intelligence artificielle g\u00e9n\u00e9rale dont les capacit\u00e9s intellectuelles d\u00e9passeraient de loin celles des humains les plus brillants. Le philosophe Nick Bostrom note que les machines disposent de certains avantages par rapport aux cerveaux humains, notamment en ce qui concerne la m\u00e9moire, la vitesse (la fr\u00e9quence des processeurs \u00e9tant de l'ordre de dix millions de fois plus \u00e9lev\u00e9e que celle des neurones biologiques) et la capacit\u00e9 \u00e0 partager des connaissances.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Test de Turing",
+    "section_path": [
+      "Intelligence artificielle g\u00e9n\u00e9rale",
+      "Tests",
+      "Test de Turing"
+    ],
+    "content": "Dans le test de Turing, une machine et un humain r\u00e9pondent textuellement aux questions d'un interrogateur humain. L'interrogateur ne les voit pas mais doit d\u00e9terminer \u00e0 partir des r\u00e9ponses textuelles lequel des deux est la machine. Pour passer le test, la machine doit parvenir une bonne partie du temps \u00e0 tromper l'interrogateur. Ce test a \u00e9t\u00e9 con\u00e7u par Alan Turing en 1950 dans l'article \u00ab Computing Machinery and Intelligence \u00bb. Initialement appel\u00e9 le \u00ab jeu de l'imitation \u00bb, son but \u00e9tait de fournir une exp\u00e9rience concr\u00e8te pour d\u00e9terminer si les machines peuvent penser.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Test du caf\u00e9",
+    "section_path": [
+      "Intelligence artificielle g\u00e9n\u00e9rale",
+      "Tests",
+      "Test du caf\u00e9"
+    ],
+    "content": "Imagin\u00e9 par Steve Wozniak, le test du caf\u00e9 consiste \u00e0 placer un syst\u00e8me intelligent dans un habitat am\u00e9ricain moyen et \u00e0 lui demander de faire un caf\u00e9. La r\u00e9ussite du test implique donc plusieurs t\u00e2ches comme l'orientation dans un environnement inconnu, d\u00e9duire le fonctionnement d'une machine, trouver les ustensiles n\u00e9cessaires\u2026",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Test de l'\u00e9tudiant",
+    "section_path": [
+      "Intelligence artificielle g\u00e9n\u00e9rale",
+      "Tests",
+      "Test de l'\u00e9tudiant"
+    ],
+    "content": "Propos\u00e9 par Ben Goertzel, le test de l'\u00e9tudiant \u00e9value la capacit\u00e9 d'un robot \u00e0 s'inscrire dans un \u00e9tablissement d'enseignement sup\u00e9rieur, suivre les cours, passer les examens et obtenir le dipl\u00f4me final.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Test de l'embauche",
+    "section_path": [
+      "Intelligence artificielle g\u00e9n\u00e9rale",
+      "Tests",
+      "Test de l'embauche"
+    ],
+    "content": "Propos\u00e9 par le chercheur Nils John Nilsson, le test de l'embauche consiste \u00e0 faire postuler un syst\u00e8me intelligent \u00e0 un travail important pour l'\u00e9conomie, o\u00f9 il doit travailler au moins aussi bien qu'un humain.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Prix Turing",
+    "section_path": [
+      "Personnalit\u00e9s",
+      "Prix Turing"
+    ],
+    "content": "Plusieurs prix Turing (ACM Turing Award) ont \u00e9t\u00e9 attribu\u00e9s \u00e0 des pionniers de l'intelligence artificielle, notamment :\n\nMarvin Minsky (1969) ;\nJohn McCarthy (1971) ;\nAllen Newell et Herbert Simon (1975) ;\nEdward Feigenbaum et Raj Reddy (1994) ;\nJudea Pearl (2011) ;\nYann Le Cun, Geoffrey Hinton et Yoshua Bengio (2019).",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Autres personnalit\u00e9s",
+    "section_path": [
+      "Personnalit\u00e9s",
+      "Autres personnalit\u00e9s"
+    ],
+    "content": "Claude Shannon, fondateur de la th\u00e9orie de l'information, inventeur de la porte logique, concepteur de programmes d'\u00e9checs.\nRodney Brooks, un roboticien australien.\nDemis Hassabis, cofondateur et PDG de DeepMind.\nIan Goodfellow, inventeur des r\u00e9seaux antagonistes g\u00e9n\u00e9ratifs.\nAndrew Ng, connu comme directeur scientifique de Baidu et comme cr\u00e9ateur de Coursera.\nTerry Winograd, pionnier en traitement automatique des langues.\nVladimir Vapnik, co-inventeur des machines \u00e0 vecteurs de support.\nSeymour Papert, ancien directeur du Laboratoire d'intelligence artificielle du MIT.\nJacques Pitrat, pionnier fran\u00e7ais en intelligence artificielle symbolique.\nEn 2023, le magazine Time publie une liste de 100 personnalit\u00e9s influentes du domaine de l'IA et leurs biographies.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Domaines d'application",
+    "section_path": [
+      "Domaines d'application"
+    ],
+    "content": "L'IA permet d'effectuer diff\u00e9rents types de t\u00e2ches, dont :\n\nla g\u00e9n\u00e9ration de texte, d'images, de vid\u00e9os, ou de musiques avec l'IA g\u00e9n\u00e9rative, \u00e0 partir d'un prompt d\u00e9crivant le r\u00e9sultat attendu ;\nla r\u00e9solution d\u2019exercices math\u00e9matiques par des applications \u00e9ducatives comme Photomath ou AskMathAI ;\nl'analyse statistique et l'interpr\u00e9tation de grandes masses de donn\u00e9es (big data) issues d'Internet ;\nla personnalisation de contenus, par exemple par les syst\u00e8mes de recommandation des r\u00e9seaux sociaux ;\nle partitionnement et la classification automatiques ;\nla reconnaissance de formes, des visages et la vision en g\u00e9n\u00e9ral, etc. ;\nl'int\u00e9gration automatique d'informations provenant de sources h\u00e9t\u00e9rog\u00e8nes (fusion de donn\u00e9es) ;\nl'aide aux diagnostics et \u00e0 la d\u00e9cision ;\nl'assistance par des machines dans les t\u00e2ches dangereuses, ou demandant une grande pr\u00e9cision ;\nl'automatisation de t\u00e2ches ;\nle traitement automatique des langues, notamment la traduction automatique ;\nla reconnaissance automatique de la parole (conversion de parole en texte) et le dialogue automatique : se faire comprendre en lui parlant ;\nle raisonnement automatique ;\nla composition musicale automatique (voir les travaux de Ren\u00e9-Louis Baron et de l'Ircam ; vers 2016, les recherches de Fran\u00e7ois Pachet portent le d\u00e9veloppement de flow machines telles que Deepbach) ;\nl'\u00e9motion artificielle (voir les travaux de Rosalind Picard sur l'\u00e9motion) et l'\u00e9ventualit\u00e9 d'une subjectivit\u00e9 artificielle ;\nla r\u00e9solution de probl\u00e8mes complexes, tels que les probl\u00e8mes d'allocation de ressources.\nEn combinant diff\u00e9rents algorithmes, on est pass\u00e9 en quelques ann\u00e9es de la reconnaissance de l'\u00e9criture manuscrite sur des formulaires de ch\u00e8ques bancaires (ann\u00e9es 1990) \u00e0 l'optimisation d'itin\u00e9raires entre deux ou plusieurs points, tenant compte des voies disponibles, de la longueur et de la vitesse probable sur chacun des segments, du moyen de locomotion et de souhaits particuliers (\u00e9viter les p\u00e9ages, points de passage oblig\u00e9s, caract\u00e9ristiques touristiques, etc.), puis \u00e0 la reconnaissance automatis\u00e9e de documents dactylographi\u00e9s ou manuscrits, permettant ensuite de les classer selon leur nature avant de les transmettre \u00e0 des agents sp\u00e9cialis\u00e9s, humains ou automates, capables d'y apporter la suite appropri\u00e9e (r\u00e9ponses pr\u00e9d\u00e9finies ou d\u00e9clenchement d'une chaine de traitements). Lorsque les algorithmes ne parviennent pas \u00e0 interpr\u00e9ter les donn\u00e9es avec un degr\u00e9 suffisant de certitude, ils sont g\u00e9n\u00e9ralement soumis \u00e0 des humains. Entre alors en jeu l'apprentissage : en corr\u00e9lant les caract\u00e9ristiques des donn\u00e9es accumul\u00e9es et des interpr\u00e9tations apport\u00e9es ou corrig\u00e9es par les agents humains, l'IA am\u00e9liore progressivement ses facult\u00e9s d'analyse jusqu'\u00e0 ce que ses pr\u00e9dictions soient suffisamment fiables pour qu'il ne soit plus n\u00e9cessaire de les faire v\u00e9rifier par un humain. Il en va de m\u00eame pour la plupart des situations o\u00f9 l'IA, par ses performances et son co\u00fbt, surpasse l'humain dans l'analyse de textes, d'images fixes ou anim\u00e9es, d'enregistrements sonores, de donn\u00e9es scientifiques, commerciales ou industrielles. L'accroissement des performances conjugu\u00e9es du mat\u00e9riel et des algorithmes permet en outre de traiter en temps r\u00e9els les flux de donn\u00e9es comme la voix humaine et les images de cam\u00e9ras, ouvrant ainsi la voie \u00e0 la traduction simultan\u00e9e, la transcription textuelle, l'identification des individus, la d\u00e9tection de comportements anormaux ou ill\u00e9gaux, voire le dialogue avec des humains.\nL'intelligence artificielle est d\u00e9sormais utilis\u00e9e dans de nombreux domaines. Ses capacit\u00e9s permettent notamment d'automatiser et d'optimiser des t\u00e2ches complexes, de traiter et d'analyser de vastes quantit\u00e9s de donn\u00e9es, et d'am\u00e9liorer la prise de d\u00e9cision. L'adoption de l'intelligence artificielle est en forte expansion dans les ann\u00e9es 2020, stimul\u00e9e par les avanc\u00e9es en intelligence artificielle g\u00e9n\u00e9rative, en particulier dans les grands mod\u00e8les de langage, dont la polyvalence ouvre la voie \u00e0 de nouveaux cas d'usage, ainsi que dans les domaines de la programmation informatique (g\u00e9n\u00e9ration de code), de l'image et du son (photos et vid\u00e9os de synth\u00e8se, animation du visage en association avec la synth\u00e8se vocale) et dans la pr\u00e9vention et l'att\u00e9nuation des risques (diagnostic m\u00e9dical, situations de crise, accidents industriels, catastrophes naturelles, etc.).",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Finance et banques",
+    "section_path": [
+      "Domaines d'application",
+      "Finance et banques"
+    ],
+    "content": "Plusieurs grands noms de la finance se sont montr\u00e9es int\u00e9ress\u00e9es par de telles technologies, avec des projets comme ceux de Bridgewater Associates o\u00f9 une intelligence artificielle va g\u00e9rer enti\u00e8rement un fonds ou encore la plateforme d'analyse pr\u00e9dictive Sidetrade.\nSont \u00e9galement d\u00e9velopp\u00e9s des syst\u00e8mes de trading algorithmique, dont les gains de vitesses permis par l'automatisation peuvent leur donner un avantage par rapport \u00e0 des traders humains, en particulier gr\u00e2ce au trading \u00e0 haute fr\u00e9quence.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Militaire",
+    "section_path": [
+      "Domaines d'application",
+      "Militaire"
+    ],
+    "content": "Le domaine militaire utilise de plus en plus l'intelligence artificielle, notamment pour le pilotage automatique, le guidage de missiles, l'identification, le commandement, l'aide \u00e0 la d\u00e9cision, la cyberguerre et la cyberd\u00e9fense, ou pour la documentation et les processus administratifs.\nCette course aux armements est notamment illustr\u00e9e par le projet Maven aux \u00c9tats-Unis. D\u00e8s 2015, une IA nomm\u00e9e ALPHA a \u00ab syst\u00e9matiquement triomph\u00e9 d'un pilote de chasse chevronn\u00e9 \u00bb. En 2018, l'ONU a tent\u00e9 d'interdire les syst\u00e8mes d'armes l\u00e9tales autonomes \u00ab avant qu'il ne soit trop tard \u00bb, mais peine encore en janvier 2024 \u00e0 \u00e9tablir le moindre cadre l\u00e9gal international face aux r\u00e9ticences, notamment de la Russie, des \u00c9tats-Unis et d'Isra\u00ebl, dont le veto peut bloquer une proposition. Des drones tueurs pilot\u00e9s par intelligence artificielle ont \u00e9t\u00e9 utilis\u00e9s lors du conflit ukraino-russe. Le 10 janvier 2024, OpenAI a modifi\u00e9 ses conditions d'utilisation ; il continue d'interdire l'usage de ses services tels que ChatGPT \u00e0 des fins ill\u00e9gales ou de destruction des biens, mais n'interdit plus explicitement les usages militaires. L'intelligence artificielle g\u00e9n\u00e9rative est parfois utilis\u00e9e par les institutions militaires pour r\u00e9diger plus vite la documentation, mais son adoption est limit\u00e9e par la confidentialit\u00e9 des donn\u00e9es, les r\u00e9glementations, ou le risque d'erreur et le besoin de v\u00e9rification.\nEn France, la force op\u00e9rationnelle IA du minist\u00e8re des Arm\u00e9es rend en septembre 2019 un rapport d\u00e9taillant sa strat\u00e9gie, qui inclut la cr\u00e9ation d'une Cellule de coordination de l'intelligence artificielle de d\u00e9fense (CCIAD) rattach\u00e9e \u00e0 l'Agence de l'innovation de d\u00e9fense. La loi de programmation militaire pr\u00e9voit un budget de 700 millions d'euros pour les missions en faveur de l'IA, soit une moyenne de 100 millions par an. En 2021, la France est oppos\u00e9e aux armes totalement autonome, estimant qu'il est au moins n\u00e9cessaire de conserver une supervision humaine. En f\u00e9vrier 2025, le minist\u00e8re des Arm\u00e9es lance sa plateforme GenIAl.intradef (co-d\u00e9velopp\u00e9e depuis 2022 par plusieurs entit\u00e9s), destin\u00e9e \u00e0 am\u00e9liorer le travail quotidien des militaires et agents civils associ\u00e9s \u00e0 l'Arm\u00e9e. Cette IA alimente un agent conversationnel et un convertisseur audio-texte ; elle peut lire et analyser des documents et des images et traduire des messages.\nDans le cadre de la guerre \u00e0 Gaza depuis 2023, Isra\u00ebl a utilis\u00e9 deux syst\u00e8mes d'IA pour g\u00e9n\u00e9rer des cibles \u00e0 frapper : Habsora (soit \u00ab l'\u00e9vangile \u00bb) a \u00e9t\u00e9 utilis\u00e9 pour dresser une liste de b\u00e2timents \u00e0 cibler, tandis que Lavander a produit une liste de 37 000 personnes \u00e0 cibler. La liste des b\u00e2timents comprenait les maisons priv\u00e9es \u00e0 Gaza de personnes soup\u00e7onn\u00e9es d'\u00eatre affili\u00e9es \u00e0 des membres du Hamas. Les responsables de Tsahal affirment que le programme r\u00e9pond au probl\u00e8me ant\u00e9rieur du manque de cibles de l\u2019arm\u00e9e de l\u2019air. Auparavant, Tsahal \u00e9tait en mesure d'identifier 50 cibles par an, tandis que le programme en produit 100 par jour. La combinaison de la technologie de ciblage de l\u2019IA et du changement de politique consistant \u00e0 \u00e9viter les cibles civiles a entra\u00een\u00e9 un nombre sans pr\u00e9c\u00e9dent de morts civils palestiniens.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "M\u00e9decine",
+    "section_path": [
+      "Domaines d'application",
+      "M\u00e9decine"
+    ],
+    "content": "La m\u00e9decine a aussi vu de grands progr\u00e8s gr\u00e2ce \u00e0 l'utilisation de syst\u00e8mes d'aide au diagnostic ou de diagnostic automatis\u00e9.\nEn 2018, Google DeepMind, filiale de Google sp\u00e9cialis\u00e9e dans la recherche avanc\u00e9e en intelligence artificielle, a publi\u00e9 les r\u00e9sultats d'une exp\u00e9rimentation d'intelligence artificielle pouvant d\u00e9tecter les maladies oculaires. Les r\u00e9sultats indiquent que l'IA le fait avec une marge d'erreur plus faible que les ophtalmologues.\nGoogle DeepMind a \u00e9galement con\u00e7u AlphaFold, un syst\u00e8me d'intelligence artificielle utilisant l'apprentissage profond qui permet de pr\u00e9dire la fa\u00e7on dont des prot\u00e9ines se replient. Les prot\u00e9ines sont compos\u00e9es de cha\u00eenes d'acides amin\u00e9s et la fa\u00e7on dont elles se replient d\u00e9termine leur fonction. Cette nouvelle m\u00e9thode, introduite en 2018 et am\u00e9lior\u00e9e en 2020, est nettement plus rapide que les approches traditionnelles et a \u00e9t\u00e9 d\u00e9crite comme une r\u00e9volution dans le domaine de la recherche en biologie.\nLa France cr\u00e9e en 2019 le Health Data Hub afin d'encadrer et de faciliter l'utilisation des donn\u00e9es de sant\u00e9 dans la recherche.\nEn 2023, la version de ChatGPT reposant sur GPT-4 s'est montr\u00e9e facilement capable d'obtenir le dipl\u00f4me de m\u00e9decin aux \u00c9tats-Unis.\nL'intelligence artificielle (IA) est de plus en plus utilis\u00e9e dans le domaine m\u00e9dical, transformant les pratiques cliniques et facilitant le diagnostic, le traitement et la gestion des maladies. Les algorithmes d'apprentissage automatique, un sous-ensemble de l'IA, analysent de grandes quantit\u00e9s de donn\u00e9es m\u00e9dicales pour en extraire des mod\u00e8les et des tendances. Cette capacit\u00e9 d'analyse a permis des avanc\u00e9es significatives dans le diagnostic pr\u00e9coce de maladies comme le cancer et les maladies cardiaques, o\u00f9 les syst\u00e8mes bas\u00e9s sur l'IA peuvent d\u00e9tecter des anomalies \u00e0 partir d'images m\u00e9dicales avec une pr\u00e9cision parfois sup\u00e9rieure \u00e0 celle des praticiens humains.\nUn des domaines o\u00f9 l'IA s'av\u00e8re particuli\u00e8rement efficace est celui de l'imagerie m\u00e9dicale. Des outils comme les r\u00e9seaux de neurones convolutifs sont utilis\u00e9s pour analyser les radiographies, les IRM et autres types d'imageries, permettant de rep\u00e9rer les signes pr\u00e9coces de pathologies complexes. Par exemple, une \u00e9tude men\u00e9e par McKinney et al. (2020) a d\u00e9montr\u00e9 que l'IA pouvait r\u00e9duire les faux positifs et n\u00e9gatifs dans le d\u00e9pistage du cancer du sein, am\u00e9liorant ainsi la pr\u00e9cision et la rapidit\u00e9 du diagnostic.\nDe plus, l'IA joue un r\u00f4le cl\u00e9 dans la m\u00e9decine personnalis\u00e9e, o\u00f9 elle aide \u00e0 adapter les traitements en fonction des caract\u00e9ristiques g\u00e9n\u00e9tiques et biologiques des patients. Gr\u00e2ce \u00e0 l'analyse des donn\u00e9es g\u00e9nomiques, les m\u00e9decins peuvent \u00e9laborer des th\u00e9rapies sp\u00e9cifiques pour des maladies comme le cancer ou les maladies g\u00e9n\u00e9tiques rares. L'IA facilite \u00e9galement le d\u00e9veloppement de nouveaux m\u00e9dicaments, en identifiant des mol\u00e9cules potentielles pour le traitement de certaines maladies, un processus qui n\u00e9cessitait auparavant plusieurs ann\u00e9es.\nCependant, malgr\u00e9 ses promesses, l'usage de l'IA en m\u00e9decine soul\u00e8ve des questions \u00e9thiques et de s\u00e9curit\u00e9, notamment en ce qui concerne la protection des donn\u00e9es des patients et la transparence des algorithmes. La Food and Drug Administration (FDA) aux \u00c9tats-Unis et d'autres organismes r\u00e9glementaires travaillent \u00e0 d\u00e9finir des cadres pour encadrer l'utilisation s\u00e9curis\u00e9e et \u00e9thique de l'IA dans les soins de sant\u00e9.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Renseignement policier",
+    "section_path": [
+      "Domaines d'application",
+      "Renseignement policier"
+    ],
+    "content": "Un usage de l'IA se d\u00e9veloppe dans le domaine de la pr\u00e9vention des crimes et d\u00e9lits. La police britannique, par exemple, d\u00e9veloppe une IA de ce genre, annonc\u00e9e comme pouvant \u00eatre op\u00e9rationnelle d\u00e8s mars 2019. Baptis\u00e9e National Data Analytics Solution (Solution nationale d'analyse de donn\u00e9es ou NDAS), elle repose sur l'IA et des statistiques et vise \u00e0 estimer le risque qu'une personne commette un crime ou en soit elle-m\u00eame victime, pour orienter les services sociaux et m\u00e9dicaux qui peuvent la conseiller.\nL'usage d'outils de pr\u00e9diction des crimes \u00e0 partir des donn\u00e9es pr\u00e9alablement existantes est toutefois l'objet de controverses, compte tenu des biais sociaux (notamment raciaux) qu'il comporte. En effet, la logique d'identification de sch\u00e9mas propre \u00e0 ces technologies joue un r\u00f4le de renforcement des pr\u00e9jug\u00e9s d\u00e9j\u00e0 existants.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Cybercrime",
+    "section_path": [
+      "Domaines d'application",
+      "Cybercrime"
+    ],
+    "content": "L'intelligence artificielle (IA) est de plus en plus exploit\u00e9e dans le domaine du cybercrime, comme le r\u00e9v\u00e8le une \u00e9tude de la soci\u00e9t\u00e9 sp\u00e9cialis\u00e9e en cybers\u00e9curit\u00e9 SlashNext. Cette tendance croissante \u00e0 l'utilisation de l'IA pour commettre des crimes en ligne montre une sophistication accrue des attaques. L'entreprise SlashNext a notamment identifi\u00e9 l'usage de deux IA malicieuses, FraudGPT et WormGPT, tout en sugg\u00e9rant que ces d\u00e9couvertes ne repr\u00e9sentent que la partie visible d'une menace potentiellement colossale. Lors de leurs investigations, les chercheurs ont \u00e9galement mis en lumi\u00e8re l'existence de DarkBart et DarkBert, deux chatbots malveillants en d\u00e9veloppement, capables d'int\u00e9grer la technologie de reconnaissance d'images de Google Google Lens. Ces chatbots pourraient envoyer du texte et des images, et participer \u00e0 des attaques d'ing\u00e9nierie sociale avanc\u00e9es. Face \u00e0 cette menace croissante, les solutions actuelles de lutte contre le cybercrime semblent insuffisantes, estime un rapport d'Immunefi, qui souligne les limites de certaines IA, telles que ChatGPT, dans la d\u00e9tection des exploits.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Droit",
+    "section_path": [
+      "Domaines d'application",
+      "Droit"
+    ],
+    "content": "Le droit fait d\u00e9j\u00e0 appel, exp\u00e9rimentalement ou non, \u00e0 l'IA, notamment pour pr\u00e9dire les d\u00e9cisions de justice, aider \u00e0 analyser et trancher certains cas r\u00e9put\u00e9s simples. L'Estonie a ainsi d\u00e9velopp\u00e9 une IA pouvant prendre des d\u00e9cisions de justice sur des d\u00e9lits mineurs. Les \u00c9tats-Unis utilisent par ailleurs, dans certaines juridictions, le syst\u00e8me COMPAS (en)(Correctional Offender Management profiling for Alternative Sanctions) d'aide \u00e0 d\u00e9cision pour les juges. Plusieurs startups se sont sp\u00e9cialis\u00e9es dans ce cr\u00e9neau, cr\u00e9ant le domaine de la legaltech.\nEn Europe, dans les ann\u00e9es 2010, la Commission europ\u00e9enne pour l'efficacit\u00e9 de la justice (CEPEJ) examine les d\u00e9fis et les opportunit\u00e9s li\u00e9s \u00e0 l'utilisation de l'IA (notamment dite \u00ab pr\u00e9dictive \u00bb) dans les syst\u00e8mes judiciaires, par exemple pour le r\u00e8glement en ligne des diff\u00e9rends. La CEPEJ publie en 2018 une Charte \u00e9thique sur l'utilisation de l'intelligence artificielle dans les syst\u00e8mes judiciaires devant notamment garantir la conformit\u00e9 avec le droit \u00e0 un proc\u00e8s \u00e9quitable et le droit \u00e0 un recours effectif (articles 6 et 13 de la Convention europ\u00e9enne des droits de l'homme). Elle se dote en 2021 d'un Plan d'action de la CEPEJ 2022 \u2013 2025 (\u00ab La digitalisation pour une meilleure justice \u00bb). En 2023, les ministres de la Justice de l'UE approuvent une strat\u00e9gie sur la justice en ligne pour la p\u00e9riode 2024-2028, un r\u00e8glement sur la num\u00e9risation de la coop\u00e9ration judiciaire et de l'acc\u00e8s \u00e0 la justice et une directive europ\u00e9enne sur la num\u00e9risation de la coop\u00e9ration judiciaire. Ces textes \u00e9tablissent un cadre et fournissent des orientations aux \u00c9tats-membres pour leurs initiatives de num\u00e9risation du secteur judiciaire, qu'elles soient l\u00e9gislatives ou non, ainsi que pour l'utilisation de services num\u00e9riques dans ce domaine.\nEn 2025, six pays participent \u00e0 un projet JUST fAIr, coordonn\u00e9 par l\u2019\u00c9cole nationale de la magistrature (France) et l\u2019\u00c9cole judiciaire espagnole (es), visant \u00e0 former les professionnels de la justice \u00e0 l\u2019IA g\u00e9n\u00e9rative et/ou pr\u00e9dictive, dans le respect des droits fondamentaux, via des s\u00e9minaires, \u00e9tudes de cas et outils p\u00e9dagogiques, tout en renfor\u00e7ant la confiance du public.\nEn 2025, en France, G\u00e9rald Darmanin, ministre de la Justice, a command\u00e9 un rapport sur L\u2019IA au service de la Justice. Face aux lenteurs de la justice, \u00e0 l'engorgement des tribunaux et \u00e0 la complexit\u00e9 croissante du Droit, le ministre souhaitait faire de 2025 l\u2019ann\u00e9e d'une mise en \u0153uvre de l\u2019intelligence artificielle par les magistrats et agents de justice du pays, tout en garantissant la s\u00e9curit\u00e9 des donn\u00e9es, la souverainet\u00e9 technologique et certains principes \u00e9thiques. Le rapport propose dix mesures, dont la cr\u00e9ation d\u2019un agent intelligent (assistant IA d\u00e9di\u00e9 et s\u00e9curis\u00e9) et des outils pour douze cas d\u2019usage prioritaires ; un Observatoire de l\u2019IA ; un campus du num\u00e9rique \u00e9quip\u00e9 de licences pour la recherche juridique assist\u00e9e. Le d\u00e9ploiement est pr\u00e9vu en trois phases : premiers outils d\u00e8s 2025, formation renforc\u00e9e de 2026 \u00e0 2027, puis consolidation des usages \u00e0 partir de 2027.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Logistique et transport",
+    "section_path": [
+      "Domaines d'application",
+      "Logistique et transport"
+    ],
+    "content": "Le domaine de la logistique a vu certains projets utilisant de l'intelligence artificielle se d\u00e9velopper notamment pour la gestion de la cha\u00eene logistique (supply chain) ou des probl\u00e9matiques de livraison telle celle du dernier kilom\u00e8tre.\nL'intelligence artificielle est \u00e9galement fortement utilis\u00e9e dans le domaine des transports en commun, car elle permet de faciliter la r\u00e9gulation et la gestion du trafic au sein de r\u00e9seaux de plus en plus complexes, comme le syst\u00e8me UrbanLoop en cours d'\u00e9tude dans la ville de Nancy.\nM\u00eame si les probl\u00e8mes d'optimisation de temps de trajet ou de transports font partie des plus anciennes applications de solutions \u00e0 base d'intelligence artificielle (voir le probl\u00e8me du voyageur de commerce ou l'algorithme de Dijkstra), les avanc\u00e9es r\u00e9centes, notamment en apprentissage profond, ont permis des progr\u00e8s significatifs en mati\u00e8re de pr\u00e9cision. Certains projets comme Google Maps utilisent par exemple des syst\u00e8mes d'IA en milieu urbain pour compenser la r\u00e9flexion du signal GPS sur les immeubles avoisinants, ou pour cartographier des zones o\u00f9 peu d'informations sont disponibles.\nPlusieurs entreprises ont par ailleurs annonc\u00e9 avoir d\u00e9velopp\u00e9 des programmes de recherche en voiture autonome, notamment Google \u00e0 travers sa filiale Waymo, l'entreprise fran\u00e7aise Navya ou encore Tesla.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Industrie",
+    "section_path": [
+      "Domaines d'application",
+      "Industrie"
+    ],
+    "content": "Les syst\u00e8mes intelligents deviennent monnaie courante dans de nombreuses industries. Plusieurs t\u00e2ches peuvent leur \u00eatre confi\u00e9es, notamment celles consid\u00e9r\u00e9es comme trop dangereuses pour un humain. Certains applications se concentrent sur les syst\u00e8mes de maintenance pr\u00e9dictive, permettant des gains de performance gr\u00e2ce \u00e0 une d\u00e9tection des probl\u00e8mes de production en amont.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Robotique",
+    "section_path": [
+      "Domaines d'application",
+      "Robotique"
+    ],
+    "content": "La robotique a recours \u00e0 l'intelligence artificielle \u00e0 plusieurs \u00e9gards, notamment pour la perception de l'environnement (objets et visages), l'apprentissage et l'intelligence artificielle d\u00e9veloppementale.\nL'interaction homme-robot manque encore souvent de naturel et est un enjeu de la robotique. Il s'agit de permettre aux robots d'\u00e9voluer dans le monde dynamique et social des humains et d'\u00e9changer avec eux de fa\u00e7on satisfaisante. L'\u00e9change n\u00e9cessite \u00e9galement, \u00e0 l'inverse, une \u00e9volution du regard que les humains portent sur les robots ; selon V\u00e9ronique Auberg\u00e9, chercheuse \u00e0 l'Universit\u00e9 Grenoble-Alpes \u00ab la vraie r\u00e9volution n'est pas technologique, elle est culturelle \u00bb. D'ores et d\u00e9j\u00e0, \u00e0 travers les robots dot\u00e9s d'intelligence artificielle, tel Google Home, les utilisateurs combleraient un isolement social.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Jeux vid\u00e9o",
+    "section_path": [
+      "Domaines d'application",
+      "Jeux vid\u00e9o"
+    ],
+    "content": "L'intelligence artificielle est par exemple utilis\u00e9e pour animer les personnages non-joueurs de jeux vid\u00e9o, qui sont con\u00e7us pour servir d'opposants, d'aides ou d'accompagnants lorsque des joueurs humains ne sont pas disponibles ou d\u00e9sir\u00e9s. Diff\u00e9rents niveaux de complexit\u00e9 sont d\u00e9velopp\u00e9s, d'une simple assistance \u00e0 un comportement complexe imitant (ou d\u00e9passant) les meilleurs joueurs humains.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Art",
+    "section_path": [
+      "Domaines d'application",
+      "Art"
+    ],
+    "content": "D\u00e8s la fin des ann\u00e9es 1980, des artistes s'emparent de l'intelligence artificielle pour donner un comportement autonome \u00e0 leurs \u0153uvres. Les Fran\u00e7ais Michel Bret, Edmond Couchot et Marie-H\u00e9l\u00e8ne Tramus sont des pionniers, ainsi qu'en t\u00e9moignent des \u0153uvres comme La Plume et Le Pissenlit (1988), puis La Funambule (2000), anim\u00e9e par un r\u00e9seau de neurones. L'Am\u00e9ricain Karl Sims, en partenariat avec la soci\u00e9t\u00e9 Thinking Machines, cr\u00e9e en 1993 Genetic Images, machines incorporant[Comment ?] des algorithmes g\u00e9n\u00e9tiques. Le couple franco-autrichien Christa Sommerer et Laurent Mignonneau cr\u00e9e depuis le d\u00e9but des ann\u00e9es 1990 de nombreuses \u0153uvres dans le champ de la vie artificielle, parmi lesquelles Interactive plant growing (1992) ou A-Volve (1994)[r\u00e9f. n\u00e9cessaire]. Le Fran\u00e7ais Florent Aziosmanoff propose quant \u00e0 lui de consid\u00e9rer que l'emploi de l'intelligence artificielle dans l'art conduit \u00e0 l'\u00e9mergence d'une nouvelle discipline d'expression, qu'il nomme le Living art.\nLe 23 octobre 2018, la soci\u00e9t\u00e9 de vente aux ench\u00e8res Christie's met en vente le tableau Portrait d'Edmond de Belamy r\u00e9alis\u00e9 par une intelligence artificielle \u00e0 l'aide de r\u00e9seaux antagonistes g\u00e9n\u00e9ratifs. La peinture est sign\u00e9e par la formule math\u00e9matique \u00e0 l'origine de sa cr\u00e9ation (\u00ab Min (G) max (D) Ex [log (D(x))] + Ez [log(1-D(G(z)))] \u00bb). Cette vente soul\u00e8ve de nombreux d\u00e9bats sur son statut de cr\u00e9ation artistique et sur l'auteur de l'\u0153uvre : il peut \u00eatre l'intelligence artificielle elle-m\u00eame ou les trois cr\u00e9ateurs qui l'ont programm\u00e9e.\n\nDes r\u00e9seaux antagonistes g\u00e9n\u00e9ratifs ont \u00e9t\u00e9 utilis\u00e9s pour cr\u00e9er de fausses images r\u00e9alistes, comme par le g\u00e9n\u00e9rateur de visages StyleGAN introduit en 2018, ou pour \u00e9crire Terre Seconde de Gr\u00e9gory Chatonsky, qui imagine en 2019 une version alternative de la plan\u00e8te Terre.\nD\u00e8s 2022 apparaissent des mod\u00e8les d'intelligence artificielle qui sont capables de cr\u00e9er des images r\u00e9alistes \u00e0 partir de descriptions textuelles, comme Midjourney, Stable Diffussion et DALL-E. En mars 2023, des fausses photos d'actualit\u00e9 sont ainsi g\u00e9n\u00e9r\u00e9es et diffus\u00e9es sur Internet, mettant en sc\u00e8ne des personnalit\u00e9s dans des situations extravagantes (le pr\u00e9sident Macron ramassant des poubelles, Donald Trump arr\u00eat\u00e9 par des policiers, le pape Fran\u00e7ois habill\u00e9 en doudoune blanche). Elles deviennent rapidement virales, augmentant les craintes de manipulation de l'opinion. Cela pose aussi des questions de droits d'auteur.\n\nDe plus en plus de romans ont \u00e9t\u00e9 co\u00e9crits avec une IA g\u00e9n\u00e9rative, tels que Internes en 2022 ou \u6771\u4eac\u90fd\u540c\u60c5\u5854 (\u00ab La Tour de la compassion de Tokyo \u00bb), qui a re\u00e7u le prix Akutagawa en 2024.\nEn f\u00e9vrier 2024, le mod\u00e8le Sora de OpenAI s'est montr\u00e9 capable de g\u00e9n\u00e9rer des vid\u00e9os relativement r\u00e9alistes.\nDes mod\u00e8les d'IA capables de g\u00e9n\u00e9rer un morceau de musique \u00e0 partie d'une description du style souhait\u00e9 ont \u00e9galement fait leur apparition, comme Suno AI en 2023 et Udio en 2024.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Enseignement",
+    "section_path": [
+      "Domaines d'application",
+      "Enseignement"
+    ],
+    "content": "En 2025, l'intelligence artificielle est employ\u00e9e plus ou moins largement dans l'enseignement dans de nombreux pays (Argentine, Danemark, Arabie saoudite, \u00c9mirats arabes unis, Chine, \u00c9tats-Unis, Royaume-Uni, Singapour), allant parfois jusqu'\u00e0 supprimer le contact avec des enseignants, un emploi sujet \u00e0 d\u00e9bat.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Autres domaines",
+    "section_path": [
+      "Domaines d'application",
+      "Autres domaines"
+    ],
+    "content": "La domesticit\u00e9, avec des robots employ\u00e9 de maison, ou pour certaines t\u00e2ches pr\u00e9cises comme en domotique.\nEn programmation informatique, notamment pour la maintenance pr\u00e9visionnelle, l'autocompl\u00e9tion ou l'aide au d\u00e9veloppement.\nEn journalisme : des IA (appel\u00e9es improprement \u00ab robots journalistes \u00bb) pourraient \u00e0 terme aider les journalistes en les d\u00e9barrassant de certaines t\u00e2ches, notamment la veille, le b\u00e2tonnage de d\u00e9p\u00eaches ou la v\u00e9rification des fake news.\nLa Cor\u00e9e du Sud propose la toute premi\u00e8re animatrice t\u00e9l\u00e9 virtuelle en novembre 2020 lors d'un JT.\nEn design : la conception assist\u00e9e par ordinateur fait depuis longtemps appel \u00e0 des algorithmes d'optimisation. En 2019, le cr\u00e9ateur Philippe Starck lance ainsi une chaise d\u00e9velopp\u00e9e en collaboration avec la soci\u00e9t\u00e9 Autodesk, la \u00ab A.I.chair \u00bb.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "D\u00e9bats et enjeux",
+    "section_path": [
+      "D\u00e9bats et enjeux"
+    ],
+    "content": "Les succ\u00e8s en IA encouragent les sp\u00e9culations. Dans les milieux technophiles, on verse en g\u00e9n\u00e9ral dans l'enthousiasme, le mouvement transhumaniste en est la meilleure expression. Mais certains s'inqui\u00e8tent et s'interrogent, parfois alarmistes, y compris dans la sph\u00e8re de la haute technologie. Ainsi, des figures r\u00e9put\u00e9es telles que Bill Gates \u2014 ancien PDG de Microsoft et \u00ab figure embl\u00e9matique de la r\u00e9volution informatique de la fin du XXe si\u00e8cle \u00bb \u2014 pensent qu'il faut rester tr\u00e8s prudent quant aux d\u00e9veloppements futurs de ces technologies, qui pourraient devenir liberticides ou dangereuses.\nLe d\u00e9veloppement de l'intelligence artificielle suscite un grand nombre de questions, notamment en ce qui concerne la possibilit\u00e9 pour les IA ou algorithmes d'acc\u00e9der un jour \u00e0 la conscience, d'\u00e9prouver des \u00e9motions ou de finalement se substituer aux humains. Certaines r\u00e9actions sont ouvertement optimistes, d'autres sont au contraire pessimistes. En 2016, l'INRIA publie un premier Livre blanc consacr\u00e9 \u00e0 l'IA.\nLe philosophe Daniel Andler consid\u00e8re en 2023 que le r\u00eave d'une intelligence artificielle qui rejoindrait celle de l'homme est une chim\u00e8re, pour des causes conceptuelles et non techniques. L'intelligence humaine va selon lui plus loin que la simple r\u00e9solution de probl\u00e8mes : toutes ses autres t\u00e2ches, reposant sur des affects, de la spontan\u00e9it\u00e9 et une forme de contingence, ne seront jamais accessibles \u00e0 une intelligence non humaine.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Singularit\u00e9",
+    "section_path": [
+      "D\u00e9bats et enjeux",
+      "Singularit\u00e9"
+    ],
+    "content": "Une description d'un possible avenir de l'intelligence artificielle a \u00e9t\u00e9 faite par le statisticien anglais Irving John Good :\n\u00ab Supposons qu'existe une machine surpassant en intelligence tout ce dont est capable un homme, aussi brillant soit-il. La conception de telles machines faisant partie des activit\u00e9s intellectuelles, cette machine pourrait \u00e0 son tour cr\u00e9er des machines meilleures qu'elle-m\u00eame ; cela aurait sans nul doute pour effet une r\u00e9action en cha\u00eene de d\u00e9veloppement de l'intelligence, pendant que l'intelligence humaine resterait presque sur place. Il en r\u00e9sulte que la machine ultra intelligente sera la derni\u00e8re invention que l'homme aura besoin de faire, \u00e0 condition que ladite machine soit assez docile pour constamment lui ob\u00e9ir. \u00bb\n\n\u2014 Irving John Good\nCette hypoth\u00e9tique courte p\u00e9riode de progr\u00e8s drastique dont il est difficile de pr\u00e9dire les cons\u00e9quences a \u00e9t\u00e9 nomm\u00e9e \u00ab singularit\u00e9 \u00bb. Elle a \u00e9t\u00e9 \u00e9tudi\u00e9e par Vernor Vinge dans les ann\u00e9es 1990 et par Ray Kurzweill dans les ann\u00e9es 2000. Ce concept est central pour de nombreux transhumanistes, qui s'interrogent sur les dangers ou les espoirs d'un tel sc\u00e9nario, certains allant jusqu'\u00e0 envisager l'\u00e9mergence d'un \u00ab dieu \u00bb num\u00e9rique appel\u00e9 \u00e0 prendre le contr\u00f4le du destin de l'humanit\u00e9, ou \u00e0 fusionner avec elle. En 2014, Nick Bostrom a popularis\u00e9 le concept de superintelligence artificielle.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Risques existentiels",
+    "section_path": [
+      "D\u00e9bats et enjeux",
+      "Risques existentiels"
+    ],
+    "content": "Le d\u00e9veloppement de l'intelligence artificielle g\u00e9n\u00e8re de l'enthousiasme, mais aussi de vives inqui\u00e9tudes. Des auteurs de science-fiction, tels Isaac Asimov, William Gibson ou Arthur C. Clarke, sur le mod\u00e8le du r\u00e9cit de L'Apprenti sorcier, d\u00e9crivent le risque d'une perte de contr\u00f4le des humains sur le processus technique. Dans les ann\u00e9es 2010 et 2020, diff\u00e9rents intellectuels ont \u00e9galement pris position, notamment l'astrophysicien Stephen Hawking, selon qui l'intelligence artificielle risque r\u00e9ellement de surpasser un jour l'intelligence humaine et de finir par dominer l'humanit\u00e9, voire de s'y substituer. Il pose en novembre 2017 au salon technologique Web Summit de Lisbonne la question suivante \u00ab Serons-nous aid\u00e9s par l'intelligence artificielle ou mis de c\u00f4t\u00e9, ou encore d\u00e9truits par elle ? \u00bb.\nDans le milieu de la haute technologie, certains expriment publiquement des craintes similaires. C'est ainsi le cas, en 2015, de Bill Gates, Elon Musk et Bill Joy. Selon le sp\u00e9cialiste am\u00e9ricain de l'informatique Moshe Vardi en 2016, l'intelligence artificielle pourrait mettre 50 % de l'humanit\u00e9 au ch\u00f4mage. \u00ab Nous approchons d'une \u00e9poque o\u00f9 les machines pourront surpasser les hommes dans presque toutes les t\u00e2ches \u00bb.\nHilary Mason, directrice de la recherche \u00e0 Cloudera, a critiqu\u00e9 en 2018 le sensationnalisme entourant l'intelligence artificielle et pr\u00f4ne une vision pragmatique et op\u00e9rationnelle de cette technologie.\nAjouter un m\u00e9canisme d'arr\u00eat pourrait ne pas suffire face \u00e0 une IA suffisamment avanc\u00e9e, qui pourrait s'av\u00e9rer en mesure de cacher des intentions dangereuses, de manipuler ses d\u00e9tenteurs, de d\u00e9sactiver le m\u00e9canisme d'arr\u00eat ou encore de se dupliquer. Selon Nick Bostrom (2015), la seule solution viable \u00e0 long terme consiste \u00e0 trouver comment aligner les intelligences artificielles avec des valeurs humaines et morales :\n\n\u00ab nous ne devrions pas \u00eatre confiants dans notre capacit\u00e9 \u00e0 garder ind\u00e9finiment un g\u00e9nie superintelligent enferm\u00e9 dans une bouteille. Je crois que la r\u00e9ponse ici est de trouver comment cr\u00e9er une IA superintelligente de sorte que si \u2014 ou plut\u00f4t quand \u2014 elle s'\u00e9chappe, elle reste sans danger, parce qu'elle est fondamentalement de notre c\u00f4t\u00e9, elle partage nos valeurs. \u00bb\n\n\u2014 Nick Bostrom\nRoman V. Yampolskiy, professeur de science informatique \u00e0 l'Universit\u00e9 de Louisville, \u00e9voque pourquoi et comment une IA obtient un r\u00e9sultat, pour s'assurer qu'il corresponde bien \u00e0 l'attendu, sans biais : \u00ab si nous nous habituons \u00e0 accepter les r\u00e9ponses de l'IA comme des paroles d'oracles ne n\u00e9cessitant pas d'explication, alors nous serons incapables de v\u00e9rifier si ces r\u00e9sultats ne sont pas biais\u00e9s ou manipul\u00e9s \u00bb.\nEn mai 2023, une d\u00e9claration du Center for AI Safety (\u00ab Centre pour la s\u00fbret\u00e9 de l'IA \u00bb) affirme que r\u00e9duire le risque d'extinction de l'humanit\u00e9 li\u00e9 \u00e0 l'IA devrait \u00eatre une priorit\u00e9 mondiale, au m\u00eame titre que pour d'autres risques civilisationnels tels les pand\u00e9mies ou les guerres nucl\u00e9aires. Elle est sign\u00e9e par des dirigeants de laboratoires d'IA comme OpenAI, Google DeepMind ou Anthropic, ainsi que par des chercheurs en intelligence artificielle.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Critique de la technique et de la technologie",
+    "section_path": [
+      "D\u00e9bats et enjeux",
+      "Critique de la technique et de la technologie"
+    ],
+    "content": "Comme l'explique l'historien Fran\u00e7ois Jarrige, la critique de l'intelligence artificielle trouve son origine dans celle - plus ancienne et plus g\u00e9n\u00e9rale - des techniques et de la technologie, dont Lewis Mumford (aux \u00c9tats-Unis), Jacques Ellul (en France) et G\u00fcnther Anders (en Allemagne) sont au XXe si\u00e8cle les principaux instigateurs, et qui inspire aujourd'hui diff\u00e9rents cercles militants (en France, par exemple : Pi\u00e8ces et Main d'\u0152uvre et Technologos).\nDans un rapport en date de f\u00e9vrier 2018 intitul\u00e9 The Malicious Use of Artificial Intelligence 26 experts sp\u00e9cialistes en intelligence artificielle mettent en garde contre les dangers d'un usage criminel de l'IA : augmentation de la cybercriminalit\u00e9, conduire \u00e0 des utilisations de drones \u00e0 des fins terroristes, manipulation de masse, etc..",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Impact environnemental",
+    "section_path": [
+      "D\u00e9bats et enjeux",
+      "Impact environnemental"
+    ],
+    "content": "L'intelligence artificielle a de nombreux impacts environnementaux, du fait de sa consommation d'\u00e9nergie, d'eau et d'usage des sols pour la construction des centres de donn\u00e9es. Le rapport du Shift Project sur l'IA d'octobre 2025 met en \u00e9vidence l'impact de ses centres de donn\u00e9es, dont la consommation \u00e9lectrique mondiale pourrait atteindre 1 500 TWh par an d'ici 2030 (soit une multiplication par 2,8 par rapport \u00e0 2023), ainsi que leur utilisation intensive d'eau et de sols. Le rapport qualifie cette trajectoire d'insoutenable au regard des objectifs climatiques, les \u00e9missions li\u00e9es pouvant atteindre 920 MtCO2eq par an en 2030. La fili\u00e8re des centres de donn\u00e9es conna\u00eetrait ainsi une augmentation de 9 % de ses \u00e9missions annuelles de gaz \u00e0 effet de serre malgr\u00e9 la d\u00e9carbonation du mix \u00e9lectrique, alors qu'une r\u00e9duction de 5 % par an serait n\u00e9cessaire pour atteindre l'objectif de z\u00e9ro \u00e9mission nette. Un autre probl\u00e8me est l'\u00e9norme quantit\u00e9 de ressources rares consomm\u00e9es.\nAfin de r\u00e9duire leur empreinte carbone, certains fournisseurs d'IA (Microsoft, Amazon et Oracle) se tournent vers les march\u00e9s volontaires de la compensation carbone et plus largement de solutions de d\u00e9carbonation, comme celles de capture du CO2. Ils s'orientent \u00e9galement vers les centrales nucl\u00e9aires pour couvrir leur besoin en \u00e9lectricit\u00e9. Microsoft a notamment sign\u00e9 en 2024 un contrat avec Constellation Energy pour l'achat de 837 MWe de capacit\u00e9 \u00e9lectrique fournie par la centrale nucl\u00e9aire de Three Mile Island, pour une dur\u00e9e de vingt ans \u00e0 partir de 2028. Google admet en 2024 qu'il lui sera tr\u00e8s difficile de tenir ses engagements de neutralit\u00e9 carbone, car depuis 2019 ses \u00e9missions de gaz \u00e0 effet de serre ont augment\u00e9 de 48 % du fait du d\u00e9veloppement de l'IA.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Open source",
+    "section_path": [
+      "D\u00e9bats et enjeux",
+      "Open source"
+    ],
+    "content": "Divers projets open source d'IA ont \u00e9t\u00e9 men\u00e9s par Hugging Face, EleutherAI, Google, ou Meta.\nEn mars 2023, comme alternative aux g\u00e9ants du Web et du cloud computing, qui ont le plus de pouvoir et d'influence, Mozilla annonce vouloir investir 30 millions de dollars dans un projet baptis\u00e9 Mozilla.ai, qui est \u00e0 la fois une startup et une communaut\u00e9, ind\u00e9pendante des g\u00e9ants de la tech et de la recherche universitaire. Le projet vise \u00e0 cr\u00e9er, dans le respect des valeurs de son manifeste (notamment transparence et responsabilit\u00e9), un syst\u00e8me d'IA \u00ab open source, digne de confiance et ind\u00e9pendant \u00bb.\nDe nombreux grands mod\u00e8les de langage comme Mistral, Llama 3, Vicuna et Falcon sont rendus open weight, ce qui signifie que l'architecture et les param\u00e8tres entra\u00een\u00e9s du mod\u00e8le d'IA sont rendus publics (open source impliquerait notamment de partager les donn\u00e9es d'entra\u00eenement, ce qui souvent n'est pas le cas). Ces mod\u00e8les peuvent \u00eatre librement ajust\u00e9s, ce qui permet notamment aux entreprises de les sp\u00e9cialiser pour leurs propres donn\u00e9es et pour leur cas d'usage. Ces mod\u00e8les d'IA facilitent l'innovation et la recherche, mais peuvent facilement \u00eatre d\u00e9tourn\u00e9s. Ils peuvent \u00eatre r\u00e9entra\u00een\u00e9s de sorte \u00e0 rendre inefficaces les mesures de s\u00e9curit\u00e9, telles que le refus de r\u00e9pondre \u00e0 une requ\u00eate dangereuse. Certains chercheurs estiment ainsi que si des mod\u00e8les d\u00e9veloppent un jour des capacit\u00e9s dangereuses, comme le fait de faciliter drastiquement les cyberattaques ou le bioterrorisme, ils ne devraient pas \u00eatre rendus open weight, d'autant plus qu'une fois diffus\u00e9 sur internet, un mod\u00e8le ne peut en g\u00e9n\u00e9ral plus \u00eatre supprim\u00e9 partout.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "IA et emploi",
+    "section_path": [
+      "D\u00e9bats et enjeux",
+      "IA et emploi"
+    ],
+    "content": "Historiquement, l'innovation technologique a g\u00e9n\u00e9ralement \u00e9t\u00e9 accompagn\u00e9e d'une croissance de la productivit\u00e9 et de la cr\u00e9ation de nouveaux emplois pour compenser les pertes. Cependant, de nouvelles inqui\u00e9tudes ont \u00e9merg\u00e9 avec l'essor de l'IA g\u00e9n\u00e9rative, telle que ChatGPT, capable de manipuler du texte, des images ou du code informatique.\nCertains \u00e9conomistes sont sceptiques \u00e0 l'id\u00e9e d'un ch\u00f4mage de masse, citant des pr\u00e9c\u00e9dents historiques o\u00f9 le march\u00e9 du travail s'est adapt\u00e9 \u00e0 des bouleversements technologiques. D'autres estiment que l'IA g\u00e9n\u00e9rative repr\u00e9sente un changement plus profond, qui ne consiste pas seulement \u00e0 automatiser des t\u00e2ches r\u00e9p\u00e9titives. L'IA peut \u00eatre appliqu\u00e9e \u00e0 tous les secteurs, et le nombre de t\u00e2ches o\u00f9 l'humain reste plus comp\u00e9tent que l'IA est amen\u00e9 \u00e0 diminuer\nUne \u00e9tude de Goldman Sachs a estim\u00e9 en 2023 que les deux tiers des travailleurs europ\u00e9ens sont expos\u00e9s \u00e0 divers degr\u00e9s d'automatisation, et qu'un quart des emplois pourraient \u00eatre remplac\u00e9s par l'IA. L'\u00e9tude pr\u00e9dit notamment que les professions administratives et l\u00e9gales seront particuli\u00e8rement touch\u00e9es, l\u00e0 o\u00f9 les m\u00e9tiers manuels en ext\u00e9rieur seront peu affect\u00e9s.\nUne solution envisag\u00e9e dans le sc\u00e9nario d'un ch\u00f4mage de masse est celle d'une forme de redistribution des richesses avec un revenu universel. Les financements pourraient dans ce cas venir d'une taxe sur les richesses produites par les machines.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "D\u00e9faut de repr\u00e9sentativit\u00e9",
+    "section_path": [
+      "D\u00e9bats et enjeux",
+      "D\u00e9faut de repr\u00e9sentativit\u00e9"
+    ],
+    "content": "L'IA s'appuie sur l'analyse de donn\u00e9es qui peinent souvent \u00e0 repr\u00e9senter fid\u00e8lement la r\u00e9alit\u00e9, soit parce ces donn\u00e9es ne proviennent que de sources num\u00e9riques existantes (le plus souvent sur Internet) alors que quantit\u00e9s d'informations pertinentes pour le domaine consid\u00e9r\u00e9 n'y figurent pas, soit parce que certaines cat\u00e9gories de donn\u00e9es pourtant pertinentes n'ont pas \u00e9t\u00e9 prises en compte, ou que des donn\u00e9es non pertinentes l'ont \u00e9t\u00e9. Il en r\u00e9sulte alors une inad\u00e9quation entre les donn\u00e9es utilis\u00e9es pour l\u2019entra\u00eenement des algorithmes et les donn\u00e9es cibles sur lesquelles l\u2019algorithme devra op\u00e9rer, et par cons\u00e9quent des erreurs de diagnostic qui peuvent, dans certains cas, induire des d\u00e9cisions inappropri\u00e9es ou injustes.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Risques politiques et sociaux",
+    "section_path": [
+      "D\u00e9bats et enjeux",
+      "Risques politiques et sociaux"
+    ],
+    "content": "Les r\u00e9seaux sociaux et les bots ont favoris\u00e9 la propagation de nombreuses fausses croyances et des d\u00e9rives dans les d\u00e9bats d\u00e9mocratiques, lesquelles ont entrain\u00e9 une certaine d\u00e9fiance vis-\u00e0-vis de la science, des \u00e9lites intellectuelles et des m\u00e9dias d'information traditionnels[r\u00e9f. incompl\u00e8te]. En cons\u00e9quence, la progression et l'adoption rapides des techniques sous-jacentes de l'IA inspirent de multiples craintes quant aux impacts que celle-ci pourrait avoir sur les comportements individuels et collectifs. Ces conditions ouvrent la possibilit\u00e9 pour des op\u00e9rateurs majeurs de la soci\u00e9t\u00e9 de fausser le r\u00e9el pour influencer ou manipuler les citoyens. Les acteurs \u00e9conomiques emploient l'IA pour influencer les consommateurs et pour optimiser le travail de leurs employ\u00e9s au point de les transformer en robots[source secondaire souhait\u00e9e]. L'\u00e9ventualit\u00e9 que l'IA intervienne dans les d\u00e9bats d'id\u00e9es ou dans la conduite des affaires individuelles ou collectives m\u00e8ne \u00e0 redouter qu'elle n'alt\u00e8re ou n'affaiblisse les institutions politiques[r\u00e9f. incompl\u00e8te] et les pouvoirs, voire les capacit\u00e9s des humains[source secondaire souhait\u00e9e].\nD\u00e8s 2010, Nicholas Carr alertait sur l'usage intensif des outils num\u00e9riques, qui modifie notre mani\u00e8re de penser et de traiter l'information, ce qui peut avoir des cons\u00e9quences \u00e0 long terme sur notre cognition, notamment affaiblir notre m\u00e9moire et notre capacit\u00e9 \u00e0 comprendre les informations de mani\u00e8re approfondie et affecter la cr\u00e9ativit\u00e9, l'empathie et le d\u00e9bat intellectuel.\nLes principales menaces couramment envisag\u00e9es, cons\u00e9cutives \u00e0 des biais ou au d\u00e9tournement des algorithmes d'IA sont :\n\nla d\u00e9sinformation et la manipulation du public pour des raisons crapuleuses, religieuses ou id\u00e9ologiques ;\nles fausses vid\u00e9os et hypertrucages repr\u00e9sentant des personnalit\u00e9s faisant ou disant des choses qu'ils n'ont pas faites ou dites ;\nla corruption de donn\u00e9es par vandalisme ou pour d\u00e9stabiliser ou soutirer de fortes sommes d'argent (par ran\u00e7ongiciel) en emp\u00eachant l'acc\u00e8s \u00e0 des donn\u00e9es ou des services ;\nl'escroquerie par usurpation d'identit\u00e9 ou pour soutirer de l'argent contre des biens ou des services fictifs ;\nle chantage \u00e0 grande \u00e9chelle, par des menaces d'agression ou de r\u00e9v\u00e9lations sur la vie priv\u00e9e ;\nla perte de contr\u00f4le ou le piratage d'infrastructures publiques (eau, \u00e9nergie, signalisation routi\u00e8re, Internet, services en ligne\u2026) \u00e0 des fins de d\u00e9stabilisation ou de chantage ;\nla perte de contr\u00f4le de robots, de v\u00e9hicules autonomes ou de drones militaires, ou leur vol ou leur d\u00e9tournement \u00e0 des fins agressives ou de chantage ;\nla manipulation de march\u00e9s financiers ;\nla surveillance de masse.\nDe plus, l'IA produit parfois des r\u00e9sultats contre-intuitifs, bien que fiables, ou sert \u00e0 propager de fausses croyances renforc\u00e9es par des biais de confirmation, qui contribuent, parmi d'autres facteurs, \u00e0 \u00e9roder la confiance d'une partie de la population dans le discours rationnel, les th\u00e9ories scientifiques, le syst\u00e8me m\u00e9diatique, les institutions et les \u00e9lites en g\u00e9n\u00e9ral, et \u00e0 la remise en cause de leurs l\u00e9gitimit\u00e9s et du processus d\u00e9mocratique[r\u00e9f. incompl\u00e8te].\nSelon Yuval Noah Harari, jusqu'ici, du fait de d\u00e9fauts d'alignement et faute de m\u00e9canismes suffisants d'autocorrection, les objectifs qui sont assign\u00e9s aux algorithmes des r\u00e9seaux sociaux ont d\u00e9j\u00e0 induit ou influenc\u00e9 ph\u00e9nom\u00e8nes de soci\u00e9t\u00e9 ind\u00e9sirables, d\u00e9sinformation, hypertrucages, propos outranciers ou haineux, comme dans le cas du g\u00e9nocide des Rohingya au Myanmar, en outrepassant les r\u00e8gles \u00e9thiques qui sont implicites pour des humains. De plus, la capacit\u00e9 de l'IA \u00e0 fonder ses analyses sur des volumes consid\u00e9rables de donn\u00e9es et de tr\u00e8s nombreux crit\u00e8res donne l'illusion de son infaillibilit\u00e9, comparativement aux m\u00e9thodes d'analyse par des individus ou des organisations humaines, fond\u00e9s sur des corpus d'information beaucoup plus r\u00e9duits et un nombre de crit\u00e8res limit\u00e9 dont certains tr\u00e8s subjectifs. Certains algorithmes d'IA ont m\u00eame la facult\u00e9 d'inspirer confiance aux humains en misant sur leur subjectivit\u00e9 ou leur \u00e9motivit\u00e9, voire de les tromper \u00ab d\u00e9lib\u00e9r\u00e9ment \u00bb pour parvenir \u00e0 leurs fins. L'exploitation de telles possibilit\u00e9s pourrait permettre de constituer un ou plusieurs nouveaux syst\u00e8mes de croyances et de r\u00e8gles morales, politiques et sociales, \u00e0 l'instar des religions ou des r\u00e9gimes politiques, instituant comme v\u00e9rit\u00e9 une certaine interpr\u00e9tation du r\u00e9el et \u00e9tablissant une nouvelle forme d'ordre social. L'IA pourrait ainsi conduire \u00e0 une certaine anarchie ou permettre l'instauration de r\u00e9gimes totalitaires dans les pays d\u00e9mocratiques (a contrario, des IA pourraient amplifier ou faire na\u00eetre des id\u00e9es subversives au sein des r\u00e9gimes autoritaires). Pour pr\u00e9server les d\u00e9mocraties, il conviendrait donc que soient \u00e9tablies des r\u00e9gulations faisant intervenir des humains pour contenir les possibles d\u00e9rives de l'IA[r\u00e9f. incompl\u00e8te].\nL'emploi de l'IA pour noter les entreprises et citoyens, sur le mod\u00e8le du cr\u00e9dit social, est d\u00e9j\u00e0 \u00e0 l'\u0153uvre en Chine. Ce proc\u00e9d\u00e9 fait craindre une surveillance constante des personnes et des organisations, pouvant entrainer une forme d'asservissement des individus, ou des sanctions et r\u00e9compenses excessives[r\u00e9f. incompl\u00e8te].\n\u00c9ric Sadin, philosophe, r\u00e9cuse le terme d'\u00ab intelligence \u00bb. Selon lui, l'IA porte en elle un mod\u00e8le de soci\u00e9t\u00e9 utilitariste et rationaliste inspir\u00e9 de mani\u00e8re extr\u00eamement lacunaire par le fonctionnement du cerveau humain et visant \u00e0 uniformiser les comportements en temps r\u00e9el et \u00e0 tous moments. Le lib\u00e9ralisme \u00e9conomique, saisissant le profit qu'il peut en tirer, investit massivement dans l'IA afin d'exploiter l'inclination naturelle des humains \u00e0 la facilit\u00e9 et les capacit\u00e9s extraordinaires de l'IA \u00e0 expertiser la complexit\u00e9 du r\u00e9el et \u00e0 orienter nos d\u00e9cisions. Cela nous conduit insidieusement \u00e0 nous fier aux r\u00e9ponses formul\u00e9es par des algorithmes au d\u00e9triment de crit\u00e8res d'analyse plus multisensoriels et de choix plus subjectifs, donc plus humains. Nous pourrions alors c\u00e9der progressivement \u00e0 l'IA notre pouvoir d'analyse, de jugement et de d\u00e9cision et consentir \u00e0 nous soumettre plus ou moins consciemment \u00e0 une \u00ab intelligence \u00bb sup\u00e9rieure, puis finalement renoncer m\u00eame \u00e0 penser. Notre addiction aux \u00ab assistants personnels \u00bb et aux capteurs physiologiques ainsi que leur pr\u00e9sence continuelle \u00e0 nos c\u00f4t\u00e9s pourraient les amener progressivement \u00e0 s'exprimer, d\u00e9cider voire imaginer \u00e0 notre place et en notre nom, d'abord avec, puis sans notre consentement.\nL'IA se d\u00e9veloppe plus vite que les cadres r\u00e9glementaires et assurantiels. Dans ce contexte, les assureurs refusent de couvrir tous les risques \u00e9mergents qui lui sont li\u00e9s. Or, en octobre 2025, OpenAI fait d\u00e9j\u00e0 face \u00e0 des poursuites (notamment pour violation de droits d'auteur et responsabilit\u00e9 civile li\u00e9e \u00e0 l'usage de ses IA), dont les p\u00e9nalit\u00e9s pourraient atteindre plusieurs milliards de dollars, et OpenAI ne dispose que d'une couverture assurantielle de 300 millions de dollars (aupr\u00e8s du courtier Aon) pour les risques \u00e9mergents li\u00e9s \u00e0 ses produits, soit une somme tr\u00e8s insuffisante au regard des responsabilit\u00e9s potentielles. Face au refus des assureurs de le couvrir, OpenAI envisage une auto-assurance reposant sur une partie des fonds de ses investisseurs (estim\u00e9e \u00e0 60 milliards de dollars). Anthropic autofinance d\u00e9j\u00e0 un r\u00e8glement \u00e0 l'amiable de 1,5 milliard de dollars dans le cadre d'un recours collectif intent\u00e9 par des auteurs l'accusant d'avoir utilis\u00e9 des \u0153uvres pirat\u00e9es pour entra\u00eener ses mod\u00e8les. En l'absence de couverture compl\u00e8te, les entreprises pourraient \u00eatre contraintes de dilapider les fonds lev\u00e9s aupr\u00e8s d'investisseurs pour survivre aux contentieux, ce qui pourrait freiner l'innovation et refroidir les futurs financements dans le secteur.\nSelon Laurent Alexandre, l'IA contribuera \u00e0 accro\u00eetre les in\u00e9galit\u00e9s en \u00e9cartant les individus les \u00ab moins aptes \u00bb de l'activit\u00e9 \u00e9conomique et sociale, et le revenu universel constituerait \u00e0 ses yeux un moyen d'asseoir la domination des \u00ab \u00e9lites \u00bb sur les populations d\u00e9favoris\u00e9es.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "R\u00e9glementation",
+    "section_path": [
+      "R\u00e9glementation"
+    ],
+    "content": "En 2017, les \u00c9mirats arabes unis sont le premier pays \u00e0 se doter d'un ministre de l'intelligence artificielle : Omar Sultan Al Olama.\nEn 2019, l'OCDE et le G20 adoptent une s\u00e9rie de principes sur l'IA. Le Partenariat mondial sur l'intelligence artificielle est lanc\u00e9 en juin 2020 pour promouvoir la conformit\u00e9 du d\u00e9veloppement de l'IA aux droits de l'homme et aux valeurs d\u00e9mocratiques. Il est h\u00e9berg\u00e9 par l'OCDE \u00e0 Montr\u00e9al et \u00e0 Paris. Une plateforme de communication, AI for Good (\u00ab l'IA pour le bien \u00bb), est cr\u00e9\u00e9e pour faciliter les \u00e9changes et faire avancer les objectifs de d\u00e9veloppement durable de l'ONU gr\u00e2ce \u00e0 l'IA.\nEn 2023, plus de 1 600 politiques publiques et strat\u00e9gies sur l'IA sont recens\u00e9es dans le monde. Elles viennent en particulier de l'Union europ\u00e9enne, la Chine, les \u00c9tats-Unis et le Royaume-Uni. Apr\u00e8s les avanc\u00e9es r\u00e9glementaires de l'UE et de la Chine, la Maison-Blanche publie en octobre 2023 un d\u00e9cret sur l'IA \u00ab s\u00fbre, s\u00e9curis\u00e9e et digne de confiance \u00bb. En novembre 2023 a lieu un premier sommet en s\u00e9curit\u00e9 de l'IA au Royaume-Uni.\nEn Europe, les services num\u00e9riques sont r\u00e9glement\u00e9s par le RGPD, le r\u00e8glement sur les services num\u00e9riques et la l\u00e9gislation sur les march\u00e9s num\u00e9riques. Pour l'intelligence artificielle en particulier, la l\u00e9gislation sur l'intelligence artificielle (Artificial Intelligence Act, ou AI Act en anglais) d\u00e9finit quatre niveaux de risques pour les applications d'IA et met en avant des exigences de transparence, de protection des donn\u00e9es, de s\u00e9curit\u00e9 et d'\u00e9thique.\nEn 2026, dans le cadre du r\u00e8glement europ\u00e9en sur l'intelligence artificielle, en vigueur depuis ao\u00fbt 2024 mais dont l'application sera progressive jusqu'en ao\u00fbt 2027, la Commission europ\u00e9enne doit publier des lignes directrices sur l'interpr\u00e9tation de l'article 6, qui porte sur la classification des syst\u00e8mes d'IA (SIA) \u00e0 haut risque, leur d\u00e9veloppement et leur d\u00e9ploiement. L'article 6 d\u00e9finit deux cat\u00e9gories d'IA \u00ab \u00e0 haut risque \u00bb : celles servant de composant de s\u00e9curit\u00e9 d'un produit r\u00e9glement\u00e9 ou constituant eux-m\u00eames un tel produit (article 6(1)), et celles pr\u00e9sentant des risques notables pour la sant\u00e9, la s\u00e9curit\u00e9 ou les droits fondamentaux (article 6(2)). Une consultation publique, ouverte jusqu'au 18 juillet 2025, vise \u00e0 recueillir les contributions des d\u00e9veloppeurs, fournisseurs, utilisateurs (publics et priv\u00e9s), chercheurs, repr\u00e9sentants de la soci\u00e9t\u00e9 civile et citoyens europ\u00e9ens. L'objectif en est de collecter des exemples concrets et de mieux comprendre les besoins op\u00e9rationnels des acteurs concern\u00e9s.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Appels \u00e0 des r\u00e8gles \u00e9thiques pour l'IA",
+    "section_path": [
+      "R\u00e9glementation",
+      "Appels \u00e0 des r\u00e8gles \u00e9thiques pour l'IA"
+    ],
+    "content": "Dans la seconde moiti\u00e9 des ann\u00e9es 2010, des lanceurs d'alerte et des enqu\u00eates r\u00e9v\u00e8lent que l'IA, encore \u00e9mergente, a d\u00e9j\u00e0 \u00e9t\u00e9 utilis\u00e9e \u00e0 des fins malveillantes pour faire basculer des processus \u00e9lectoraux. Le premier cas notable a \u00e9t\u00e9 la plate-forme RIPON, secr\u00e8tement cr\u00e9\u00e9e par le Groupe SCL, \u00e0 la demande de Steve Bannon et du milliardaire am\u00e9ricain Robert Mercer. Cette plateforme, principalement au service de groupes politiques libertariens de droite, a \u00e9t\u00e9 un outil de d\u00e9sinformation, de production et de diffusion de fake news \u00e0 grande \u00e9chelle. Ripon, impliqu\u00e9e dans le scandale Facebook-Cambridge Analytica/Aggregate IQ), joua un r\u00f4le important dans la manipulation d\u2019un grand nombre d'\u00e9lecteurs, notamment pour faire \u00e9lire Donald Trump lors de l'\u00e9lection pr\u00e9sidentielle am\u00e9ricaine de 2016, pour faire advenir le Brexit, ainsi que pour orienter des dizaines d'\u00e9lections dans le monde.\nFace \u00e0 ces d\u00e9rives, les g\u00e9ants du secteur de l\u2019IA ont r\u00e9agi en cr\u00e9ant le 28 septembre 2016 un \u00ab partenariat pour l'intelligence artificielle au b\u00e9n\u00e9fice des citoyens et de la soci\u00e9t\u00e9 \u00bb. L'ann\u00e9e suivante, Google DeepMind se dote d'une unit\u00e9 interne pour aborder les questions \u00e9thiques et la conf\u00e9rence d'Asilomar r\u00e9unit des personnalit\u00e9s influentes du domaine pour \u00e9laborer une charte visant \u00e0 r\u00e9glementer les d\u00e9veloppements de l'IA.\nLe 18 juillet 2018, 2 400 chercheurs, ing\u00e9nieurs et personnalit\u00e9s du secteur de l'intelligence artificielle signent une lettre ouverte, s'engageant \u00e0 \u00ab ne jamais participer ou soutenir le d\u00e9veloppement, la fabrication, le commerce ou l'usage d'armes l\u00e9tales autonomes \u00bb. La lettre pr\u00e9cise que \u00ab La d\u00e9cision de prendre une vie humaine ne devrait jamais \u00eatre d\u00e9l\u00e9gu\u00e9e \u00e0 une machine \u00bb. Parmi les signataires se trouvent Elon Musk, les dirigeants de Google DeepMind Stuart Russell, Yoshua Bengio, et Toby Walsh.\nFin 2020, l'UNESCO rejoint (en tant qu'observateur, comme l'OCDE) le conseil et le comit\u00e9 directeur du Partenariat mondial sur l'intelligence artificielle, avec la possibilit\u00e9 de participer activement aux travaux de ces organismes.\nLa publication en f\u00e9vrier 2020 d'un Livre blanc sur l'intelligence artificielle, pose les bases du r\u00e8glement sur l'intelligence artificielle de 2021 par la Commission europ\u00e9enne, qui vise \u00e0 encadrer les risques et les probl\u00e8mes \u00e9thiques de ces technologies. Ce projet classe les risques en quatre cat\u00e9gories, dont la plus grave est qualifi\u00e9e comme suit :\n\n\u00ab Risque inacceptable : les syst\u00e8mes d'IA consid\u00e9r\u00e9s comme une menace \u00e9vidente pour la s\u00e9curit\u00e9, les moyens de subsistance et les droits des personnes seront interdits. Il s'agit notamment des syst\u00e8mes ou applications d'IA qui manipulent le comportement humain pour priver les utilisateurs de leur libre arbitre (par exemple, des jouets utilisant une assistance vocale incitant des mineurs \u00e0 avoir un comportement dangereux) et des syst\u00e8mes qui permettent la notation sociale par les \u00c9tats. \u00bb\n\nEn d\u00e9cembre 2022, le \u00ab premier forum mondial sur l'\u00e9thique de l'IA \u00bb, r\u00e9union minist\u00e9rielle internationale, est r\u00e9uni \u00e0 Prague, sous l'\u00e9gide de l'Unesco.\nLa m\u00eame ann\u00e9e, l\u2019Unesco, estimant que \u00ab l'autor\u00e9gulation de l'industrie n'est manifestement pas suffisante pour \u00e9viter ces pr\u00e9judices \u00e9thiques \u00bb, a publi\u00e9 un communiqu\u00e9 (adopt\u00e9 le 23 novembre 2021) demandant \u00e0 tous les \u00c9tats de mettre en \u0153uvre sa recommandation sur l'\u00e9thique de l'intelligence artificielle afin de construire un cadre l\u00e9gislatif et \u00e9thique pour l'IA.\nL\u2019objectif est de n'utiliser l\u2019IA que lorsque les atouts qu'elle peut offrir sont bien identifi\u00e9s, et qu\u2019on peut \u00e9viter, limiter et r\u00e9parer les risques qui lui sont associ\u00e9s (en particulier lors d'usages non pacifiques, malveillants et/ou aggravant les in\u00e9galit\u00e9s et des clivages). Ici, l'ONU, invite \u00e0 ne pas utiliser l'IA quand elle met en p\u00e9ril la protection des donn\u00e9es (tous les individus doivent pouvoir effacer et acc\u00e9der aux enregistrements de leurs donn\u00e9es personnelles, et les organismes de r\u00e9glementation du monde entier doivent faire respecter ces dispositions). Cette recommandation vient aussi interdire la notation sociale et la surveillance de masse, contraires aux droits de l'homme et aux libert\u00e9s fondamentales, et rejette l\u2019id\u00e9e d\u2019accorder une personnalit\u00e9 juridique \u00e0 l\u2019IA \u00ab La Recommandation souligne que, lors de l'\u00e9laboration de cadres r\u00e9glementaires, les \u00c9tats membres doivent tenir compte du fait que la responsabilit\u00e9 et l'obligation de rendre des comptes incombent toujours aux \u00eatres humains en dernier ressort et que les technologies de l'IA ne devraient pas \u00eatre dot\u00e9es elles-m\u00eames d'une personnalit\u00e9 juridique \u00bb.\nL\u2019\u00e9valuation des IA prend en compte ses impacts \u00e9thiques sur les individus, sur la soci\u00e9t\u00e9 et sur l'environnement. L\u2019objectif \u00e9tant \u00e0 terme de cr\u00e9ant une infrastructure juridique et technique ad hoc, ainsi qu\u2019un responsable (ind\u00e9pendant) de l'\u00e9thique de l'IA pour surveiller l\u2019utilisation et la cr\u00e9ation des IA qui devraient \u00ab privil\u00e9gier les m\u00e9thodes d'IA \u00e9conomes en donn\u00e9es, en \u00e9nergie et en ressources \u00bb. D\u2019un point de vue \u00e9cologique, les gouvernements sont invit\u00e9s, lors du cycle de vie du syst\u00e8me d'IA, \u00e0 analyser son \u00ab empreinte carbone, sa consommation d'\u00e9nergie et l'impact environnemental de l'extraction des mati\u00e8res premi\u00e8res pour soutenir la fabrication des technologies d'IA \u00bb, tout en cherchant \u00e0 diminuer l'impact environnemental du num\u00e9rique en investissant dans les technologies vertes. Ainsi, \u00ab si les syst\u00e8mes d'IA ont un impact n\u00e9gatif disproportionn\u00e9 sur l'environnement, la Recommandation pr\u00e9conise de ne pas les utiliser \u00bb.\nEn 2023, l\u2019UNESCO r\u00e9it\u00e8re son appel \u00e0 la mise en \u0153uvre rapide de sa Recommandation sur l\u2019\u00e9thique de l\u2019intelligence artificielle, adopt\u00e9e \u00e0 l'unanimit\u00e9 par ses 193 \u00c9tats-membres. \u00ab C\u2019est le d\u00e9fi de notre temps \u00bb, et il est \u00ab urgent que tous transposent ce cadre sous la forme de strat\u00e9gies et de r\u00e9glementations nationales. Nous devons traduire les engagements en actes \u00bb a comment\u00e9 Audrey Azoulay (directrice g\u00e9n\u00e9rale de l'Unesco). L'ONU appelle ainsi les \u00c9tats qui ne l'ont pas d\u00e9j\u00e0 fait \u00e0 rejoindre les plus de 40 pays \u00ab de toutes les r\u00e9gions du monde \u00bb qui ont commenc\u00e9 \u00e0 cr\u00e9er de tels garde-fous, pour notamment cr\u00e9er un outil l\u00e9gislatif capable d'encadrer et de surveiller les IA, tout en veillant \u00e0 la protection des donn\u00e9es personnelles et sensibles, et en sensibilisant la population mondiale \u00e0 un usage responsable de l'IA.\nEn 2023, lors de la 57e Journ\u00e9e mondiale de la paix, le pape Fran\u00e7ois exprime ses pr\u00e9occupations quant aux cons\u00e9quences potentielles de l'IA sur la paix mondiale et demande \u00e0 la communaut\u00e9 internationale de d\u00e9finir un trait\u00e9 international contraignant pour r\u00e9glementer son d\u00e9veloppement et son utilisation. Il se montre particuli\u00e8rement pr\u00e9occup\u00e9 par \u00ab la possibilit\u00e9 de mener des op\u00e9rations militaires \u00e0 travers des syst\u00e8mes de contr\u00f4le \u00e0 distance \u00bb, citant notamment les syst\u00e8mes d\u2019armes l\u00e9tales autonomes.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Droits des robots",
+    "section_path": [
+      "R\u00e9glementation",
+      "Droits des robots"
+    ],
+    "content": "En 2017, le Parlement europ\u00e9en a demand\u00e9 \u00e0 une commission d'\u00e9tudier la possibilit\u00e9 qu'un robot dot\u00e9 d'une intelligence artificielle puisse \u00eatre consid\u00e9r\u00e9 comme une personne juridique. Advenant un dommage caus\u00e9 \u00e0 un tiers par une intelligence artificielle, celle-ci pourrait \u00eatre condamn\u00e9e \u00e0 r\u00e9parer ce dommage. Il serait envisageable de conf\u00e9rer une personnalit\u00e9 \u00e9lectronique \u00e0 tout robot prenant des d\u00e9cisions autonomes ou interagissant de mani\u00e8re ind\u00e9pendante avec des tiers, au m\u00eame titre qu'une personne morale et physique.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Gouvernance d\u00e9mocratique",
+    "section_path": [
+      "R\u00e9glementation",
+      "Gouvernance d\u00e9mocratique"
+    ],
+    "content": "En 2023, Mark Coeckelbergh et Henrik Skaug Saetra, respectivement philosophe renomm\u00e9 de l'\u00e9thique des technologies et expert en sciences politiques, se penchent sur la question de l'intelligence artificielle (IA) et son potentiel r\u00f4le dans la lutte contre le changement climatique. Ils plaident pour une int\u00e9gration des IA dans les politiques d\u00e9mocratiques, soulignant qu\u2019elles peuvent faciliter la d\u00e9lib\u00e9ration et la prise de d\u00e9cisions. Toutefois, ils avertissent \u00e9galement que l'IA pourrait devenir un outil si puissant qu'il pourrait enti\u00e8rement remplacer le gouvernement, entra\u00eenant des probl\u00e8mes sociaux majeurs.\nPour illustrer leur propos, Coeckelbergh et Saetra pr\u00e9sentent deux cas extr\u00eames : une d\u00e9mocratie sans remplacement des humains (AI-augmented democracy) et une technocratie dirig\u00e9e par l'IA (AI-driven technocracy). Ces deux cas extr\u00eames sont choisis pour d\u00e9montrer les implications oppos\u00e9es de l'int\u00e9gration de l'IA dans la gouvernance.\nDans une d\u00e9mocratie sans remplacement des humains, l\u2019IA est pr\u00e9sent\u00e9e comme un simple outil visant \u00e0 faciliter la prise de d\u00e9cision. Par exemple, elle peut \u00eatre utilis\u00e9e pour la traduction, la v\u00e9rification des faits, ou la prise de notes. Ici, l'IA soutient le processus d\u00e9mocratique sans en prendre le contr\u00f4le.\nEn revanche, dans une d\u00e9mocratie avec remplacement, l\u2019IA prend toutes les d\u00e9cisions, sans aucune intervention humaine. Cette approche, selon Saetra, pose cinq probl\u00e8mes majeurs :\n\nles citoyens ont besoin d'une pleine participation politique pour \u00eatre satisfaits ;\nles citoyens ne consid\u00e8rent pas comme l\u00e9gitime un gouvernement auquel ils ne participent pas ;\nles ordinateurs ne devraient pas prendre de d\u00e9cisions affectant la vie et le bien-\u00eatre des personnes ;\nl'IA n'est pas transparente et ne peut donc pas \u00eatre enti\u00e8rement contr\u00f4l\u00e9e par l'homme ;\nl'obligation de rendre compte des cons\u00e9quences des d\u00e9cisions politiques doit \u00eatre claire, ce qui devient de moins en moins le cas lorsque l'IA prend des d\u00e9cisions.\nCes points soulignent les cons\u00e9quences sociales et \u00e9thiques de la prise de d\u00e9cision par l\u2019IA en ce qui concerne les humains. Ainsi, Coeckelbergh et Saetra concluent qu'une d\u00e9mocratie sans remplacement des humains est plus adapt\u00e9e, l\u2019IA y \u00e9tant pr\u00e9sente uniquement comme soutien et non comme entit\u00e9 d\u00e9cisionnelle.\nLes deux auteurs estiment cependant qu\u2019aucune des deux propositions n\u2019est actuellement r\u00e9alisable : les relations entre les humains et la technologie ne sont pas suffisamment \u00e9volu\u00e9es pour permettre une utilisation \u00e9thique de l\u2019IA. Ainsi, les d\u00e9cisions ne peuvent pas \u00eatre prises uniquement par l\u2019IA, car les erreurs sont encore trop fr\u00e9quentes et les normes sociales et \u00e9thiques peu respect\u00e9es.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Demandes de moratoire",
+    "section_path": [
+      "R\u00e9glementation",
+      "Demandes de moratoire"
+    ],
+    "content": "D\u00e9but 2023, l'apparition de ChatGPT suscite une grande curiosit\u00e9, de l'enthousiasme, mais aussi des craintes s\u00e9rieuses : \u00ab Devons-nous laisser les machines inonder nos canaux d'information de propagande et de mensonges ? (\u2026) Devons-nous risquer de perdre le contr\u00f4le de notre civilisation ? Ces d\u00e9cisions ne doivent pas \u00eatre d\u00e9l\u00e9gu\u00e9es \u00e0 des leaders technologiques non \u00e9lus \u00bb affirment Elon Musk, Steve Wozniak (cofondateur d'Apple) et des centaines d'experts. Le 29 mars 2023, ceux-ci, invoquant des \u00ab risques majeurs pour l'humanit\u00e9 \u00bb, signent une p\u00e9tition qui appelle le monde \u00e0 un moratoire d'au moins six mois sur ces recherches, jusqu'\u00e0 la mise en place de syst\u00e8mes de s\u00e9curit\u00e9, incluant : la cr\u00e9ation d'autorit\u00e9s r\u00e9glementaires d\u00e9di\u00e9es, des moyens pour efficacement surveiller des IA et des syst\u00e8mes les utilisant, la mise \u00e0 disposition de techniques permettant de mieux diff\u00e9rencier le r\u00e9el de l'artificiel, et la cr\u00e9ation d'institutions pouvant limiter les \u00ab perturbations \u00e9conomiques et politiques dramatiques (en particulier pour la d\u00e9mocratie) que l'IA provoquera \u00bb.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Courants de pens\u00e9e",
+    "section_path": [
+      "Philosophie",
+      "Courants de pens\u00e9e"
+    ],
+    "content": "La cybern\u00e9tique naissante des ann\u00e9es 1940 revendiquait tr\u00e8s clairement son caract\u00e8re pluridisciplinaire et se nourrissait des contributions les plus diverses : neurophysiologie, psychologie, logique, sciences sociales, etc. Elle envisagea deux approches des syst\u00e8mes, approches reprises par les sciences cognitives et de ce fait l'intelligence artificielle[r\u00e9f. souhait\u00e9e] : une approche par la d\u00e9composition (du haut vers le bas, comme avec les syst\u00e8mes experts) et une approche contraire par construction progressive du bas vers le haut, comme avec l'apprentissage automatique.\nCes deux approches se r\u00e9v\u00e8lent plut\u00f4t compl\u00e9mentaires que contradictoires : on est \u00e0 l'aise pour d\u00e9composer rapidement ce que l'on conna\u00eet bien, et une approche pragmatique \u00e0 partir des seuls \u00e9l\u00e9ments que l'on conna\u00eet afin de se familiariser avec les concepts \u00e9mergents est plus utile pour les domaines inconnus. Elles sont respectivement \u00e0 la base des hypoth\u00e8ses de travail que constituent le cognitivisme et le connexionnisme, qui tentent aujourd'hui (2005)[Passage \u00e0 actualiser] d'op\u00e9rer progressivement leur fusion.\nLe guide pratique de Linux sur l'intelligence artificielle v3.0, r\u00e9vis\u00e9 le 15 d\u00e9cembre 2012, adopte pour la commodit\u00e9 du lecteur la taxinomie suivante :\n\nsyst\u00e8mes symboliques ;\nconnexionnisme ;\ncalcul \u00e9volutif (algorithmes g\u00e9n\u00e9tiques, par exemple) ;\nalife (vie artificielle) et complexit\u00e9 ;\nagents et robotique.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Cognitivisme",
+    "section_path": [
+      "Philosophie",
+      "Courants de pens\u00e9e",
+      "Cognitivisme"
+    ],
+    "content": "Le cognitivisme consid\u00e8re que le vivant, tel un ordinateur (bien que par des proc\u00e9d\u00e9s tr\u00e8s diff\u00e9rents), manipule essentiellement des symboles \u00e9l\u00e9mentaires. Dans son livre La soci\u00e9t\u00e9 de l'esprit, Marvin Minsky, s'appuyant sur des observations du psychologue Jean Piaget, envisage le processus cognitif comme une comp\u00e9tition d'agents fournissant des r\u00e9ponses partielles et dont les avis sont arbitr\u00e9s par d'autres agents. Il cite les exemples suivants de Piaget :\n\nl'enfant croit d'abord que plus le niveau d'eau est \u00e9lev\u00e9 dans un verre, plus il y a d'eau dans ce verre. Apr\u00e8s avoir jou\u00e9 avec des transvasements successifs, il int\u00e8gre le fait que la notion de hauteur du liquide dans le verre entre en comp\u00e9tition avec celle du diam\u00e8tre du verre, et arbitre de son mieux entre les deux ;\nil vit ensuite une exp\u00e9rience analogue en manipulant de la p\u00e2te \u00e0 modeler : la r\u00e9duction de plusieurs objets temporairement repr\u00e9sent\u00e9s \u00e0 une m\u00eame boule de p\u00e2te l'incite \u00e0 d\u00e9gager un concept de conservation de la quantit\u00e9 de mati\u00e8re.\nAu bout du compte, ces jeux d'enfants se r\u00e9v\u00e8lent essentiels \u00e0 la formation de l'esprit, qui d\u00e9gagent quelques r\u00e8gles pour arbitrer les diff\u00e9rents \u00e9l\u00e9ments d'appr\u00e9ciation qu'il rencontre, par essais et erreurs.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Connexionnisme",
+    "section_path": [
+      "Philosophie",
+      "Courants de pens\u00e9e",
+      "Connexionnisme"
+    ],
+    "content": "Le connexionnisme, se r\u00e9f\u00e9rant aux processus auto-organisationnels, envisage la cognition comme le r\u00e9sultat d'une interaction globale des parties \u00e9l\u00e9mentaires d'un syst\u00e8me. On ne peut nier que le chien dispose d'une sorte de connaissance des \u00e9quations diff\u00e9rentielles du mouvement, puisqu'il arrive \u00e0 attraper un b\u00e2ton au vol, ni qu'un chat ait aussi une sorte de connaissance de la loi de chute des corps, puisqu'il se comporte comme s'il savait \u00e0 partir de quelle hauteur il ne doit plus essayer de sauter directement pour se diriger vers le sol. Cette facult\u00e9, qui \u00e9voque l'intuition des philosophes, se caract\u00e9riserait par la prise en compte et la consolidation d'\u00e9l\u00e9ments perceptifs dont aucun pris isol\u00e9ment n'atteint le seuil de la conscience, ou en tout cas n'y d\u00e9clenche d'interpr\u00e9tation particuli\u00e8re.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Synth\u00e8se",
+    "section_path": [
+      "Philosophie",
+      "Courants de pens\u00e9e",
+      "Synth\u00e8se"
+    ],
+    "content": "Trois concepts reviennent de fa\u00e7on r\u00e9currente dans la plupart des travaux :\n\nla redondance (le syst\u00e8me est peu sensible \u00e0 des pannes ponctuelles) ;\nla r\u00e9entrance (les composants s'informent en permanence entre eux ; cette notion diff\u00e8re de la r\u00e9entrance en programmation) ;\nla s\u00e9lection (au fil du temps, les comportements efficaces sont d\u00e9gag\u00e9s et renforc\u00e9s).",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Intelligence artificielle forte",
+    "section_path": [
+      "Philosophie",
+      "Intelligence artificielle forte"
+    ],
+    "content": "Le concept d'intelligence artificielle forte fait r\u00e9f\u00e9rence \u00e0 une machine capable non seulement de produire un comportement intelligent, notamment de mod\u00e9liser des id\u00e9es abstraites, mais aussi d'\u00e9prouver une impression d'une r\u00e9elle conscience, de \u00ab vrais sentiments \u00bb (notion dont la d\u00e9finition n'est pas universelle), et \u00ab une compr\u00e9hension de ses propres raisonnements \u00bb.\nContrairement \u00e0 l'intelligence artificielle g\u00e9n\u00e9rale, l'intelligence artificielle forte fait donc le plus souvent intervenir des notions philosophiques de conscience qui font que les capacit\u00e9s de l'intelligence artificielle ne suffisent pas \u00e0 dire si elle est \u00ab forte \u00bb. Cela dit, aucune d\u00e9finition de la conscience pour une IA ne fait consensus. Les termes \u00ab intelligence artificielle forte \u00bb et \u00ab intelligence artificielle g\u00e9n\u00e9rale \u00bb sont parfois en pratique utilis\u00e9s de mani\u00e8re interchangeable.\nEn partant du principe, \u00e9tay\u00e9 par les neurosciences, que la conscience a un support biologique et donc mat\u00e9riel, les scientifiques ne voient g\u00e9n\u00e9ralement pas d'obstacle th\u00e9orique \u00e0 la cr\u00e9ation d'une intelligence consciente sur un support mat\u00e9riel autre que biologique. Selon les tenants de l'IA forte, si \u00e0 l'heure actuelle il n'y a pas d'ordinateurs ou d'algorithmes aussi intelligents que l'\u00eatre humain, ce n'est pas un probl\u00e8me d'outil mais de conception. Il n'y aurait aucune limite fonctionnelle (un ordinateur est une machine de Turing universelle avec pour seules limites celles de la calculabilit\u00e9), seulement des limites li\u00e9es \u00e0 l'aptitude humaine \u00e0 concevoir les logiciels appropri\u00e9s (programme, base de donn\u00e9es\u2026).",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Diversit\u00e9 des opinions",
+    "section_path": [
+      "Philosophie",
+      "Intelligence artificielle forte",
+      "Diversit\u00e9 des opinions"
+    ],
+    "content": "Les principales opinions soutenues pour r\u00e9pondre \u00e0 la question d'une intelligence artificielle forte (c'est-\u00e0-dire dou\u00e9e d'une sorte de conscience) sont les suivantes :\n\nimpossible : la conscience serait le propre des organismes vivants (sup\u00e9rieurs), et elle serait li\u00e9e \u00e0 la nature des syst\u00e8mes biologiques. Cette position est d\u00e9fendue par certains philosophes et sociologues comme Harry Collins, pour qui l'intelligence requiert une immersion dans la soci\u00e9t\u00e9 humaine, et donc un corps humain, et peut rappeler le courant du vitalisme ;\nimpossible avec des machines manipulant des symboles comme les ordinateurs actuels, mais possible avec des syst\u00e8mes dont l'organisation mat\u00e9rielle serait fond\u00e9e sur des processus quantiques. Des algorithmes quantiques sont th\u00e9oriquement capables de mener \u00e0 bien des calculs hors de l'atteinte pratique des calculateurs conventionnels (complexit\u00e9 en \n  \n    \n      \n        \n          N\n          \n            3\n          \n        \n      \n    \n    {\\displaystyle N^{3}}\n  \n au lieu de \n  \n    \n      \n        \n          2\n          \n            N\n          \n        \n      \n    \n    {\\displaystyle 2^{N}}\n  \n, par exemple, sous r\u00e9serve d'existence du calculateur appropri\u00e9). Au-del\u00e0 de la rapidit\u00e9, le scientifique Roger Penrose d\u00e9fend dans la th\u00e9orie de la r\u00e9duction objective orchestr\u00e9e l'id\u00e9e controvers\u00e9e que la conscience n\u00e9cessiterait un fonctionnement non compatible avec les lois de la physique classique, et accessible uniquement \u00e0 des syst\u00e8mes quantiques ;\nimpossible car la pens\u00e9e n'est pas un ph\u00e9nom\u00e8ne calculable par des processus discrets et finis. Cette th\u00e9orie est notamment avanc\u00e9e par le philosophe John Searle et son exp\u00e9rience de la chambre chinoise. Une conscience est donc n\u00e9cessaire pour acc\u00e9der \u00e0 l'intelligence, mais un syst\u00e8me informatique ne serait capable que d'en simuler une, sans pour autant la poss\u00e9der, renvoyant au concept philosophique du zombie ;\npossible avec des ordinateurs manipulant des symboles. La notion de symbole est toutefois \u00e0 prendre au sens large. Cette option inclut les travaux sur le raisonnement ou l'apprentissage symbolique bas\u00e9 sur la logique des pr\u00e9dicats, mais aussi les techniques connexionnistes telles que les r\u00e9seaux de neurones, qui, \u00e0 la base, sont d\u00e9finies par des symboles. Cette position est port\u00e9e par des mouvements comme ceux du computationnalisme et est port\u00e9e par des philosophes comme Hubert Dreyfus, pour qui le cerveau suit les lois de la physique et de la biologie, impliquant que l'esprit est donc un processus simulable. Cette derni\u00e8re opinion constitue la position la plus engag\u00e9e en faveur de l'intelligence artificielle forte.\nDes auteurs comme Douglas Hofstadter (mais d\u00e9j\u00e0 avant lui Arthur C. Clarke ou Alan Turing ; voir le test de Turing) expriment par ailleurs un doute sur la possibilit\u00e9 de faire la diff\u00e9rence entre une intelligence artificielle qui \u00e9prouverait r\u00e9ellement une conscience, et une autre qui simulerait exactement ce comportement (voir Zombie (philosophie)). Apr\u00e8s tout, nous ne pouvons m\u00eame pas \u00eatre certains que d'autres consciences que la n\u00f4tre, y compris chez des humains, \u00e9prouvent r\u00e9ellement quoi que ce soit, si ce n'est par une p\u00e9tition de principe qui sp\u00e9cule que chaque humain se retrouve \u00e0 l'identique chez tous les autres. On retrouve l\u00e0 le probl\u00e8me connu du solipsisme en philosophie.\nM\u00eame si une intelligence artificielle forte n'\u00e9tait gu\u00e8re possible, une IA peut \u00eatre de plus en plus per\u00e7ue comme forte par une majorit\u00e9 d'individus parall\u00e8lement \u00e0 l'arriv\u00e9e des IA g\u00e9n\u00e9ratives, dont les LLM (de l'anglais large language model) comme ChatGPT ou Google Bard, et les outils de g\u00e9n\u00e9ration d'images comme Midjourney, DALL-E ou Stable Diffusion. En effet, le champ d'applications de ces outils est beaucoup plus large qu'auparavant : cr\u00e9ation, synth\u00e8se, traduction de textes, composition d'images, de vid\u00e9os \u00e0 partir de prompts, textes descriptifs. Il devient ainsi de plus en plus difficile pour un \u00eatre humain de distinguer des cr\u00e9ations humaines de celles provenant d'une IA g\u00e9n\u00e9rative.\nEmily Bender estime que les grands mod\u00e8les de langage comme ChatGPT ne font que r\u00e9gurgiter plus ou moins al\u00e9atoirement des morceaux de texte venant des corpus ayant servi \u00e0 leur entra\u00eenement, sans en comprendre le sens. Elle les appelle ainsi des \u00ab perroquets stochastiques \u00bb. De m\u00eame, Jean-Gabriel Ganascia consid\u00e8re que le contenu qu'ils produisent n'est pas original et que leur utilisation dans la r\u00e9daction d'articles de recherche constitue une forme de plagiat. Ilya Sutskever consid\u00e8re au contraire que ces mod\u00e8les, \u00e0 force d'\u00eatre entra\u00een\u00e9s \u00e0 pr\u00e9dire le mot suivant, acqui\u00e8rent une forme de \u00ab mod\u00e8le du monde \u00bb et une repr\u00e9sentation \u00ab compress\u00e9e, abstraite et utilisable \u00bb des concepts.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Intelligence artificielle faible",
+    "section_path": [
+      "Philosophie",
+      "Intelligence artificielle forte",
+      "Intelligence artificielle faible"
+    ],
+    "content": "La notion d'intelligence artificielle faible constitue une approche pragmatique d'ing\u00e9nieur : chercher \u00e0 construire des syst\u00e8mes de plus en plus autonomes (pour r\u00e9duire le co\u00fbt de leur supervision), des algorithmes capables de r\u00e9soudre des probl\u00e8mes d'une certaine classe, etc. Mais, cette fois, la machine simule l'intelligence, elle semble agir comme si elle \u00e9tait intelligente.\nLes tenants de l'IA forte admettent que s'il y a bien dans ce cas simple simulation de comportements intelligents, il est ais\u00e9 de le d\u00e9couvrir et qu'on ne peut donc g\u00e9n\u00e9raliser. En effet, si on ne peut diff\u00e9rencier exp\u00e9rimentalement deux comportements intelligents, celui d'une machine et celui d'un humain, comment peut-on pr\u00e9tendre que les deux choses ont des propri\u00e9t\u00e9s diff\u00e9rentes ? Le terme m\u00eame de \u00ab simulation de l'intelligence \u00bb est contest\u00e9 et devrait, toujours selon eux, \u00eatre remplac\u00e9 par \u00ab reproduction de l'intelligence \u00bb.\nSi le terme intelligence artificielle peut d\u00e9signer un syst\u00e8me capable de r\u00e9soudre plusieurs probl\u00e8mes de fa\u00e7on relativement autonome tout en ne faisant que simuler le principe d'intelligence, il peut aussi d\u00e9signer des syst\u00e8mes capables de r\u00e9soudre uniquement un type de probl\u00e8me pour un jeu de donn\u00e9es pr\u00e9d\u00e9fini. On peut donner pour exemple un syst\u00e8me entrain\u00e9 \u00e0 reconnaitre des chiffres \u00e9crits \u00e0 la main, comme ceux utilis\u00e9s par La Poste, qui malgr\u00e9 sa grande performance sur sa t\u00e2che, serait incapable de fonctionner sur un probl\u00e8me sortant de ce pour quoi il a \u00e9t\u00e9 con\u00e7u. Ces intelligences artificielles, aussi nomm\u00e9es \u00ab intelligences artificielles \u00e9troites \u00bb (terme issu de l'anglais narrow AI), sont con\u00e7us pour effectuer une t\u00e2che pr\u00e9cise, contrairement \u00e0 une intelligence artificielle g\u00e9n\u00e9rale.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Question de l'intelligence",
+    "section_path": [
+      "Philosophie",
+      "Question de l'intelligence"
+    ],
+    "content": "La d\u00e9finition du terme \u00ab intelligence artificielle \u00bb pose une question fondamentale : Qu'est-ce que l'intelligence ?\nL'intelligence peut se d\u00e9finir de mani\u00e8re g\u00e9n\u00e9rale comme un ensemble de capacit\u00e9s cognitives permettant de r\u00e9soudre des probl\u00e8mes ou de s'adapter \u00e0 un environnement.\nLe chercheur en IA Yann Le Cun avance que le noyau de l'intelligence est la facult\u00e9 de pr\u00e9dire. Les bases de la programmation des premiers syst\u00e8mes experts supposent de \u00ab ma\u00eetriser parfaitement un probl\u00e8me et d'avoir une vue pr\u00e9cise de toutes les solutions \u00bb, afin d'en programmer pr\u00e9cis\u00e9ment le comportement. Mais les syst\u00e8mes d'IA modernes \u00e0 base d'apprentissage automatique sont entra\u00een\u00e9s \u00e0 pr\u00e9dire la r\u00e9ponse attendue, ou \u00e0 g\u00e9n\u00e9rer une solution correcte. Leurs capacit\u00e9s \u00e9mergent ainsi progressivement, par essai-erreur, sans que le programmeur n'ait besoin de fournir une solution algorithmique, ou m\u00eame de savoir comment r\u00e9soudre le probl\u00e8me. Dans tous les cas, l'efficacit\u00e9 de l'intelligence artificielle d\u00e9pend de sa capacit\u00e9 \u00e0 r\u00e9pondre aux objectifs donn\u00e9s par les programmeurs et \u00e0 tendre vers l'autonomie d\u00e9cisionnelle, ce qui pr\u00e9suppose, entre autres, une capacit\u00e9 de pr\u00e9diction.\nLe philosophe John Searle consid\u00e8re quant \u00e0 lui que la facult\u00e9 de comprendre est plus importante dans la d\u00e9finition de l'intelligence. Il essaie de d\u00e9montrer la faiblesse des syst\u00e8mes d'intelligence artificielle et les limites du test de Turing, par son exp\u00e9rience de la chambre chinoise, concluant : \u00ab on ne devrait pas dire d'une IA qu'elle comprend les informations qu'elle traite lorsqu'elle manipule des r\u00e8gles de syntaxe sans ma\u00eetriser la s\u00e9mantique, c'est-\u00e0-dire sans reconna\u00eetre le sens des mots. La question de savoir si on peut parler d'une v\u00e9ritable intelligence reste donc ouverte \u00bb. L'apprentissage automatique fonctionne cependant diff\u00e9remment de l'IA symbolique, qui \u00e9tait populaire \u00e0 l'\u00e9poque o\u00f9 Searle a con\u00e7u l'exp\u00e9rience de pens\u00e9e de la chambre chinoise en 1980.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Dans la fiction",
+    "section_path": [
+      "Dans la fiction"
+    ],
+    "content": "Une machine ayant une conscience et capable d'\u00e9prouver des sentiments \u2014 ou de faire comme si c'\u00e9tait le cas \u2014 est un grand th\u00e8me classique de la science-fiction, notamment des romans d'Isaac Asimov sur les robots.\nCe sujet a toutefois \u00e9t\u00e9 exploit\u00e9 tr\u00e8s t\u00f4t, comme dans le r\u00e9cit des aventures de Pinocchio, publi\u00e9 en 1881, o\u00f9 une marionnette capable d'\u00e9prouver de l'amour pour son cr\u00e9ateur cherche \u00e0 devenir un vrai petit gar\u00e7on, ou dans L'Homme le plus dou\u00e9 du monde, une nouvelle de l'Am\u00e9ricain Edward Page Mitchell o\u00f9 le cerveau d'un simple d'esprit est remplac\u00e9 par un ordinateur inspir\u00e9 des recherches de Charles Babbage. Le roman Le Miroir flexible de R\u00e9gis Messac propose quant \u00e0 lui le principe d'une intelligence artificielle faible, mais \u00e9volutive, avec des automates inspir\u00e9s de formes de vie simples, r\u00e9agissant \u00e0 certains stimuli tels que la lumi\u00e8re. Cette trame a fortement inspir\u00e9 le film A.I. Intelligence artificielle r\u00e9alis\u00e9 par Steven Spielberg, sur la base d'id\u00e9es de Stanley Kubrick, lui-m\u00eame inspir\u00e9 de Brian Aldiss. L'\u0153uvre de Dan Simmons, notamment le cycle d'Hyp\u00e9rion, \u00e9voque l'intelligence artificielle. Destination vide, de Frank Herbert, met en sc\u00e8ne de mani\u00e8re fascinante l'\u00e9mergence d'une intelligence artificielle forte. Plus r\u00e9cemment, l'\u00e9crivain fran\u00e7ais Christian L\u00e9ourier a plac\u00e9 une intelligence artificielle au c\u0153ur de son roman court Helstrid (2018), dans lequel cette IA laisse un \u00eatre humain mourir, contrevenant ainsi aux trois lois de la robotique instaur\u00e9es par Isaac Asimov pr\u00e8s de quatre-vingts ans plus t\u00f4t.\nLes andro\u00efdes faisant preuve d'intelligence artificielle dans la fiction sont nombreux : le personnage de Data de la s\u00e9rie t\u00e9l\u00e9vis\u00e9e Star Trek : The Next Generation est un \u00eatre cybern\u00e9tique dou\u00e9 d'intelligence, avec des capacit\u00e9s importantes d'apprentissage. Il est officier sup\u00e9rieur sur le vaisseau Enterprise et \u00e9volue aux c\u00f4t\u00e9s de ses co\u00e9quipiers humains qui l'inspirent dans sa qu\u00eate d'humanit\u00e9. Son pendant cin\u00e9matographique est Bishop dans les films Aliens (1986) et Alien 3 (1992). Dans le manga Ghost in the Shell, une andro\u00efde s'\u00e9veille \u00e0 la conscience. Dans la saga Terminator avec Arnold Schwarzenegger, le T-800 reprogramm\u00e9, con\u00e7u initialement pour tuer, semble dans la capacit\u00e9 d'\u00e9prouver des sentiments humains. Par ailleurs, les Terminators successifs sont envoy\u00e9s dans le pass\u00e9 par Skynet, une intelligence artificielle qui a pris conscience d'elle-m\u00eame, et du danger que repr\u00e9sentent les humains envers elle-m\u00eame[r\u00e9f. n\u00e9cessaire].\nDans le dernier \u00e9pisode de la saison 10 d'Inspecteur Derrick (diffus\u00e9 en 1983), intitul\u00e9 Un homme en trop, le Professeur R\u00f6mer (jou\u00e9 par Erich Hallhuber) veut arr\u00eater ses recherches sur l'intelligence artificielle, par peur du pouvoir sans conscience que cette nouvelle g\u00e9n\u00e9ration d'ordinateurs pourrait avoir sur les humains en finissant par les dominer et les tuer. Il abat son successeur pour l'emp\u00eacher de continuer son travail.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Quelques IA c\u00e9l\u00e8bres dans la science-fiction",
+    "section_path": [
+      "Dans la fiction",
+      "Quelques IA c\u00e9l\u00e8bres dans la science-fiction"
+    ],
+    "content": "1968 : 2001, l'Odyss\u00e9e de l'espace de Stanley Kubrick, inspir\u00e9 de la nouvelle La Sentinelle d'Arthur C. Clarke, \u00e9galement auteur du sc\u00e9nario du film, d\u00e9crit notamment la lutte entre l'ordinateur HAL et l'humain Dave.\n1969 : Le Cerveau d'acier, d'apr\u00e8s le roman de Dennis Feltham Jones (en) de 1967, montre un syst\u00e8me d'IA militaire am\u00e9ricain contacter son homologue russe pour qu'ils coop\u00e8rent \u00e0 leur mission commune, \u00e9viter la guerre nucl\u00e9aire (en neutralisant les humains).\n1981 : dans Blade Runner de Ridley Scott, inspir\u00e9 d'un roman de Philip K. Dick, des humains artificiels (des \u00ab r\u00e9pliquants \u00bb) reviennent sur terre apr\u00e8s une mission spatiale, mais n'acceptent pas leur mort programm\u00e9e \u00e0 la suite du succ\u00e8s de leur mission.\n1982 : dans K 2000, une Pontiac Trans-Am embarque une intelligence artificielle au nom de KITT, con\u00e7ue pour r\u00e9aliser des diagnostics pour les dossiers de la F.L.A.G. Elle ne peut ressentir des \u00e9motions, ne peut porter atteinte \u00e0 la vie d'autrui et n'\u00e9coute que les ordres de Michael Knight. Une partie de l'histoire repose sur l'importance de la programmation, notamment \u00e0 travers son jumeau mal\u00e9fique et prototype K.A.R.R. dont la principale diff\u00e9rence est d'avoir un instinct de survie qui pr\u00e9domine.\n1982 : Tron de Steven Lisberger, o\u00f9 le Ma\u00eetre contr\u00f4le principal (MCP) est un programme d'\u00e9checs qui a \u00e9volu\u00e9 en IA et tente de prendre le contr\u00f4le total du syst\u00e8me.\n1985 : D.A.R.Y.L. est un andro\u00efde que le gouvernement am\u00e9ricain cherche \u00e0 d\u00e9truire.\n1999 : Matrix, trilogie cin\u00e9matographique de science-fiction dans laquelle les humains, enferm\u00e9s dans un monde cr\u00e9\u00e9 par l'IA, sont asservis par les machines. Une petite poche de r\u00e9sistance humaine r\u00e9siste et se bat encore dans l'espoir de la venue de l'\u00c9lu : Neo.\n1999 : L'Homme bicentenaire, o\u00f9 un exemplaire de NDR-114 d\u00e9nomm\u00e9 \u00ab Andrew \u00bb poursuit un long chemin vers l'acquisition de la conscience, au point de se voir reconnaitre le statut d'\u00eatre humain \u00e0 la fin de sa \u00ab vie \u00bb. Il s'agit d'une adaptation de la nouvelle \u00e9ponyme d'Isaac Asimov.\n2001 : A.I. Intelligence artificielle de Steven Spielberg, inspir\u00e9 de la nouvelle de Brian Aldiss Les Supertoys durent tout l'\u00e9t\u00e9. Le personnage central est un enfant-robot dou\u00e9 d'\u00e9motions et de sentiments.\n2003 - 2007 : Code Lyoko dessin anim\u00e9 o\u00f9 une I.A appel\u00e9e X.A.N.A tente de prendre le contr\u00f4le du r\u00e9seau mondial apr\u00e8s avoir acc\u00e9d\u00e9 \u00e0 la conscience.\n2004 : I, Robot, inspir\u00e9 de l'\u0153uvre de Isaac Asimov et th\u00e8me semblable au film AI.\n2008 : J.A.R.V.I.S. (Just A Rather Very Intelligent System) dans les films Iron Man, Avengers, etc. avec Robert Downey Jr., inspir\u00e9 des comics de Marvel.\n2011-2016 : la s\u00e9rie t\u00e9l\u00e9vis\u00e9e Person of Interest met en sc\u00e8ne un groupe de personnes guid\u00e9es par une intelligence artificielle capable de pr\u00e9dire des crimes.\n2012-2014 : la s\u00e9rie t\u00e9l\u00e9vis\u00e9e Real Humans : 100 % humain d\u00e9crit l'\u00e9mergence de robots dou\u00e9s de conscience au sein de la soci\u00e9t\u00e9 humaine.\n2015 : Ex Machina de Alex Garland, dans lequel un test de Turing d'une semaine va d\u00e9g\u00e9n\u00e9rer en faveur d'un robot f\u00e9minin (gyno\u00efde) r\u00e9volutionnaire.\n2016 : la s\u00e9rie t\u00e9l\u00e9vis\u00e9e Westworld met en sc\u00e8ne des andro\u00efdes \u00e0 l'apparence humaine qui commencent \u00e0 adopter des comportements impr\u00e9visibles.\n2023 : dans la mini-s\u00e9rie Class of '09, l'IA est utilis\u00e9e par le FBI pour r\u00e9soudre des enqu\u00eates.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Utilisation dans les jeux",
+    "section_path": [
+      "Utilisation dans les jeux"
+    ],
+    "content": "Les jeux, notamment les jeux de strat\u00e9gie, ont marqu\u00e9 l'histoire de l'intelligence artificielle, m\u00eame s'ils ne mesurent que des comp\u00e9tences particuli\u00e8res, telles que la capacit\u00e9 de la machine en mati\u00e8re de calcul de probabilit\u00e9s, de prise de d\u00e9cision mais aussi d'apprentissage.\nHans Berliner (1929-2017), docteur en science informatique \u00e0 l'universit\u00e9 Carnegie-Mellon et joueur d'\u00e9checs, fut l'un des pionniers de la programmation pour les ordinateurs de jeu. Ses travaux commenc\u00e8rent par un programme capable de battre un humain professionnel au backgammon, puis, \u00e0 partir des ann\u00e9es 1960 et avec l'aide d'IBM, il fit des recherches pour cr\u00e9er un programme capable de rivaliser avec des grands ma\u00eetres du jeu d'\u00e9checs. Ses travaux contribu\u00e8rent quelques d\u00e9cennies plus tard \u00e0 la r\u00e9alisation du supercalculateur Deep Blue.\nOutre la capacit\u00e9 des jeux \u00e0 permettre de mesurer les performances de l'intelligence artificielle, que ce soit au travers d'un score ou d'un affrontement face \u00e0 un humain, les jeux offrent un environnement propice \u00e0 l'exp\u00e9rimentation pour les chercheurs, notamment dans le domaine de l'apprentissage par renforcement.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Othello",
+    "section_path": [
+      "Utilisation dans les jeux",
+      "Othello"
+    ],
+    "content": "Dans le jeu Othello, sur un plateau de 8 cases sur 8, chaque joueur place tour \u00e0 tour des pions de sa couleur (noir ou blanc). Le vainqueur est celui qui poss\u00e8de les pions de la couleur dominante.\nL'une des premi\u00e8res intelligences artificielles pour l'Othello est IAGO, d\u00e9velopp\u00e9e en 1976 par l'universit\u00e9 Caltech de Pasadena (Californie), qui bat sans difficult\u00e9s le champion japonais Fumio Fujita.\nLe premier tournoi d'Othello opposant des hommes \u00e0 des machines est organis\u00e9 en 1980. Un an plus tard, un nouveau tournoi de programmes regroupe 20 syst\u00e8mes. C'est entre 1996 et 1997 que le nombre de programmes explose : Darwersi (1996-1999) par Olivier Arsac, Hannibal (1996) par Martin Piotte et Louis Geoffroy, Keyano (1997) par Mark Brockington, Logistello (1997) par Michael Buro, etc.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "\u00c9checs",
+    "section_path": [
+      "Utilisation dans les jeux",
+      "\u00c9checs"
+    ],
+    "content": "En 1968, le ma\u00eetre international anglais David Levy lan\u00e7a un d\u00e9fi \u00e0 des sp\u00e9cialistes en intelligence artificielle, leur pariant qu'aucun programme informatique ne serait capable de le battre aux \u00e9checs dans les dix ann\u00e9es \u00e0 venir. Il remporta son pari, n'\u00e9tant finalement battu par Deep Thought qu'en 1989.\nEn 1988, l'ordinateur HiTech de Hans Berliner est le premier programme \u00e0 battre un grand ma\u00eetre du jeu d'\u00e9checs, Arnold Denker (74 ans) en match (3,5-1,5).\nEn 1997, le supercalculateur con\u00e7u par IBM, Deep Blue (surnomm\u00e9 Deeper Blue lors de ce match revanche), bat Garry Kasparov (3,5\u20132,5) et marque un tournant : pour la premi\u00e8re fois, le meilleur joueur humain du jeu d'\u00e9checs est battu en match (et non lors d'une partie unique) par une machine.\nEn d\u00e9cembre 2017, une version g\u00e9n\u00e9raliste d'AlphaGo Zero (le successeur du programme AlphaGo de DeepMind) nomm\u00e9e AlphaZero, est d\u00e9velopp\u00e9e pour jouer \u00e0 n'importe quel jeu en connaissant seulement les r\u00e8gles, et en apprenant \u00e0 jouer seul contre lui-m\u00eame. Ce programme est ensuite entra\u00een\u00e9 pour le go, le shogi et les \u00e9checs. Apr\u00e8s 9 heures d'entra\u00eenement, AlphaZero bat le programme d'\u00e9checs Stockfish (leader dans son domaine), avec un score de 28 victoires, 72 nulles et aucune d\u00e9faite. Il faut cependant noter que la puissance de calcul disponible pour AlphaZero (4 TPU v2 pour jouer, soit une puissance de calcul de 720 Teraflops) \u00e9tait tr\u00e8s sup\u00e9rieure \u00e0 la puissance disponible de Stockfish pour ce match, ce dernier tournant sur un ordinateur \u00e9quip\u00e9 de seulement 64 c\u0153urs Intel. AlphaZero a \u00e9galement battu (apr\u00e8s apprentissage) le programme de sh\u014dgi Elmo (en).\nL'apparition d'AlphaZero et de son nouveau style, notamment l'importance des sacrifices de long terme, a fait \u00e9voluer la fa\u00e7on de jouer des meilleurs joueurs d'\u00e9checs humains jusqu'\u00e0 Magnus Carlsen.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Go",
+    "section_path": [
+      "Utilisation dans les jeux",
+      "Go"
+    ],
+    "content": "En 2015, l'IA r\u00e9alise des progr\u00e8s significatifs dans la pratique du go, plus complexe \u00e0 appr\u00e9hender que les \u00e9checs (entre autres \u00e0 cause du plus grand nombre de positions : 10170 au go, contre 1050 pour les \u00e9checs, et de parties plausibles : 10600 au go, contre 10120 pour les \u00e9checs).\nEn octobre 2015, AlphaGo, un logiciel d'IA con\u00e7u par DeepMind, filiale de Google, bat pour la premi\u00e8re fois Fan Hui, le triple champion europ\u00e9en de go et ainsi rel\u00e8ve ce qu'on consid\u00e9rait comme l'un des plus grands d\u00e9fis pour l'intelligence artificielle. Cette tendance se confirme en mars 2016 quand AlphaGo bat par trois fois cons\u00e9cutives le champion du monde de la discipline, Lee Sedol, dans un duel en cinq parties. Lee Sedol a d\u00e9clar\u00e9 au terme de la seconde partie qu'il n'avait trouv\u00e9 \u00ab aucune faiblesse \u00bb chez l'ordinateur et que sa d\u00e9faite \u00e9tait \u00ab sans \u00e9quivoque \u00bb.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Jeopardy!",
+    "section_path": [
+      "Utilisation dans les jeux",
+      "Jeopardy!"
+    ],
+    "content": "En 2011, l'IA Watson con\u00e7ue par IBM bat ses adversaires humains au jeu t\u00e9l\u00e9vis\u00e9 am\u00e9ricain Jeopardy!. Dans ce jeu de questions/r\u00e9ponses, la compr\u00e9hension du langage est essentielle pour la machine ; pour ce faire, Watson a pu s'appuyer sur une importante base de donn\u00e9es interne lui fournissant des \u00e9l\u00e9ments de culture g\u00e9n\u00e9rale, et avait la capacit\u00e9 d'apprendre par lui-m\u00eame, notamment de ses erreurs. Il disposait n\u00e9anmoins d'un avantage, la capacit\u00e9 d'appuyer instantan\u00e9ment (et donc avant ses adversaires humains) sur le buzzer pour donner une r\u00e9ponse.",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Poker",
+    "section_path": [
+      "Utilisation dans les jeux",
+      "Poker"
+    ],
+    "content": "En 2007, Polaris est le premier programme informatique \u00e0 gagner un tournoi de poker significatif face \u00e0 des joueurs professionnels humains.\nEn 2017, lors du tournoi de poker \u00ab Brains Vs. Artificial Intelligence : Upping the Ante \u00bb (\u00ab Cerveau contre Intelligence Artificielle : on monte la mise \u00bb) organis\u00e9 dans un casino de Pennsylvanie, l'intelligence artificielle Libratus, d\u00e9velopp\u00e9e par des chercheurs de l'universit\u00e9 Carnegie-Mellon de Pittsburgh, est confront\u00e9e \u00e0 des adversaires humains dans le cadre d'une partie marathon \u00e9tal\u00e9e sur 20 jours. Les joueurs humains oppos\u00e9s \u00e0 Libratus, tous professionnels de poker, affrontent successivement la machine dans une partie en face \u00e0 face (heads up (en)) selon les r\u00e8gles du \u00ab No Limit Texas hold'em \u00bb (no limit signifiant que les mises ne sont pas plafonn\u00e9es), la version alors la plus courante du poker. Les parties sont retransmises en direct et durant huit heures par jour sur la plateforme Twitch.\nAu terme de plus de 120 000 mains jou\u00e9es, Libratus remporte tous ses duels face aux joueurs humains et accumule 1 766 250 dollars (virtuels). Le joueur humain ayant perdu le moins d'argent dans son duel face \u00e0 la machine, Dong Kim, est tout de m\u00eame en d\u00e9ficit de plus de 85 000 dollars. Dans leurs commentaires du jeu de leur adversaire, les joueurs humains admettent que celui-ci \u00e9tait \u00e0 la fois d\u00e9concertant et terriblement efficace. En effet, Libratus \u00ab \u00e9tudiait \u00bb chaque nuit, gr\u00e2ce aux ressources d'un supercalculateur situ\u00e9 \u00e0 Pittsburgh, ses mains jou\u00e9es durant la journ\u00e9e \u00e9coul\u00e9e, utilisant les 15 millions d'heures-processeur de calculs du supercalculateur.\nLa victoire, nette et sans bavure, illustre les progr\u00e8s accomplis dans le traitement par l'IA des \u00ab informations imparfaites \u00bb, o\u00f9 la r\u00e9flexion doit prendre en compte des donn\u00e9es incompl\u00e8tes ou dissimul\u00e9es. Les estimations du nombre de possibilit\u00e9s d'une partie de poker sont en effet d'environ 10160 dans la variante no limit en face \u00e0 face.\nAuparavant, en 2015, le joueur professionnel Doug Polk (en) avait remport\u00e9 la premi\u00e8re \u00e9dition de cet \u00e9v\u00e8nement contre une autre IA, baptis\u00e9e Claudico (en).",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Articles connexes",
+    "section_path": [
+      "Voir aussi",
+      "Articles connexes"
+    ],
+    "content": "Aspects juridiques\n\nL\u00e9gislation sur l'intelligence artificielle, aussi appel\u00e9e AI Act\nDigital Services Act, ou loi sur les services num\u00e9riques de l'Union europ\u00e9enne\nNotions g\u00e9n\u00e9rales\n\nNotions techniques\n\nChercheurs en intelligence artificielle (espace anglophone)\n\nChercheurs en intelligence artificielle (espace francophone)\n\nLaboratoires et entreprises en intelligence artificielle\n\nOpenAI, soci\u00e9t\u00e9 d\u00e9veloppant ChatGPT et DALL-E.\nGoogle DeepMind\nAnthropic\nMeta AI\nInflection AI",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Aspects techniques",
+    "section_path": [
+      "Voir aussi",
+      "Bibliographie",
+      "Aspects techniques"
+    ],
+    "content": "Stuart J. Russell et Peter Norvig (trad. de l'anglais), Intelligence artificielle [\u00ab Artificial Intelligence: A Modern Approach \u00bb], Paris, Pearson Education France, 2010, 3e \u00e9d., 1198 p. (ISBN 978-2-7440-7455-4, pr\u00e9sentation en ligne).\nAlan Turing, Jean-Yves Girard, La Machine de Turing, \u00c9ditions du Seuil, 1995 [d\u00e9tail de l\u2019\u00e9dition], Les Ordinateurs et l'Intelligence, p. 133\u2013174.\nClaire R\u00e9my, L'Intelligence artificielle, Paris, \u00c9ditions Dunod, 1994, 158 p. (ISBN 2-10-002258-X).\nJean-Marc Alliot et Thomas Schiex, Intelligence artificielle et informatique th\u00e9orique, Toulouse, CEPADUES, 2002, 543 p. (ISBN 2-85428-578-6).\n(en) Michael R. Genesereth et Nils J. Nilsson, Logical Foundations of Artificial Intelligence, Los Altos, Californie, \u00c9tats-Unis, Morgan Kaufmann, 1987, 405 p. [d\u00e9tail de l\u2019\u00e9dition] (ISBN 0-934613-31-1).\nJean-Louis Lauri\u00e8re, Intelligence Artificielle, Eyrolles, 1986.\nJean-Paul Delahaye, Outils logiques pour l'intelligence artificielle, Eyrolles, 1985 [d\u00e9tail des \u00e9ditions] (ISBN 978-2212084122).\nJean-Paul Haton, Marie-Christine Haton, L'Intelligence Artificielle, Paris, Que sais-je ?, 1990, 127 p. (ISBN 2-13-043164-X).\n(en) Kate Crawford, Atlas of AI : Power, Politics, and the Planetary Costs of Artificial Intelligence, Yale University Press, 2021.\n(en) Jacques Pitrat Artificial Beings, the conscience of a conscious machine, Artificial Beings, the conscience of a conscious machine, ISTE-Wiley, 2019 (ISBN 9781848211018).",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Aspects prospectifs",
+    "section_path": [
+      "Voir aussi",
+      "Bibliographie",
+      "Aspects prospectifs"
+    ],
+    "content": "Intelligence artificielle : \u00c9tat de l'art et perspectives pour la France, Direction g\u00e9n\u00e9rale des entreprises, f\u00e9vrier 2019, pdf (ISBN 978-2-11-152634-1, ISSN 2491-0058, r\u00e9sum\u00e9).\n\u00ab Jusqu'o\u00f9 ira l'intelligence artificielle ? \u00bb, Pour la science, hors-s\u00e9rie no 115,\u200e mai-juin 2022, p. 4-119.\nThibault Pr\u00e9vost, Les proph\u00e8tes de l'IA - Pourquoi la Silicon Valley nous vend l\u2019apocalypse, Montr\u00e9al (Qu\u00e9bec), Lux, 2025, 216 p. (ISBN 9782898331602).",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Aspects philosophiques",
+    "section_path": [
+      "Voir aussi",
+      "Bibliographie",
+      "Aspects philosophiques"
+    ],
+    "content": "Marie David et C\u00e9dric Sauviat, Intelligence artificielle, la nouvelle barbarie, \u00c9ditions du Rocher, 2019, 313 p.\nLaurent Alexandre, La Guerre des intelligences. Intelligence artificielle versus intelligence humaine, Paris, \u00c9ditions Jean-Claude Latt\u00e8s, 2017, 250 p. (ISBN 978-2-7096-6084-6, lire en ligne).\nGilbert Boss, Les machines \u00e0 penser : L'homme et l'ordinateur, Zurich, \u00c9ditions du Grand midi, 1987, 202 p. (ISBN 2-88093-105-3).\nJacques Bolo, Philosophie contre intelligence artificielle, Paris, Lingua Franca, 1996, 375 p. (ISBN 2-912059-00-3).\nAlan Ross Anderson (trad. de l'anglais), Pens\u00e9e et machine, Seyssel, \u00c9ditions Champ Vallon, 1983 (r\u00e9impr. 1993), 150 p. (ISBN 2-903528-28-4, lire en ligne).\nJean Sallantin et Jean-Jacques Szczeciniarz, Le Concept de preuve \u00e0 la lumi\u00e8re de l'intelligence artificielle, Paris, Presses universitaires de France, 1999, 370 p. (ISBN 2-13-050104-4).\nJean-Gabriel Ganascia, L'\u00c2me-machine, les enjeux de l'intelligence artificielle, Paris, \u00c9ditions du Seuil, Collection Science Ouverte, 1990, 284 p. (ISBN 2-02-011470-4).\nNick Bostrom, Superintelligence : Paths, Dangers, Strategies, 2014, 328 p. (ISBN 978-0-19-967811-2, lire en ligne).",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Aspects \u00e9conomiques",
+    "section_path": [
+      "Voir aussi",
+      "Bibliographie",
+      "Aspects \u00e9conomiques"
+    ],
+    "content": "(en) Daron Acemo\u011flu \u00ab Equality Debate: Power and Progress, with Daron Acemoglu \u00bb (8 novembre 2023)  (lire en ligne )\u2014 World Inequality Lab,  (visioconf\u00e9rence, 6 novembre 2023).\n(en) Daron Acemo\u011flu et Simon Johnson, Power and Progress : Our Thousand-Year Struggle Over Technology and Prosperity, Basic Books, 2023, 560 p. (ISBN 978-1399804462).\n(en) Daron Acemo\u011flu, \u00ab The Simple Macroeconomics of AI \u00bb, Economic Policy, Massachusetts Institute of Technology,\u200e 5 avril 2024 (lire en ligne  [PDF]).\nAbhijit Banerjee et Esther Duflo (trad. Christophe Jacquet), chap. 7 \u00ab Le piano m\u00e9canique \u00bb, dans \u00c9conomie utile pour des temps difficiles, \u00c9ditions du Seuil, 2020.\n(en) Joseph Briggs et Devesh Kodnani, \u00ab The Potentially Large Effects of Artificial Intelligence on Economic Growth \u00bb, Global Economics Analyst, Goldman Sachs,\u200e 26 mars 2023 (lire en ligne ).\n(en) Mauro Cazzaniga, Florence Jaumotte, Longji Li, Giovanni Melina, Augustus Panton, Carlo Pizzinelli, Emma Rockall et Marina Tavares, \u00ab Gen-AI: Artificial Intelligence and the Future of Work \u00bb  [PDF], sur Fonds mon\u00e9taire international, 14 janvier 2024.\n(en) Michael Chui, James Manyika et Mehdi Miremadi, \u00ab Four fundamentals of workplace automation \u00bb , sur McKinsey, 1er novembre 2015.\nKristalina Georgieva, \u00ab L\u2019IA transformera l\u2019\u00e9conomie mondiale. Faisons en sorte que l\u2019humanit\u00e9 y soit gagnante \u00bb, Fonds mon\u00e9taire international,\u200e 14 janvier 2024 (lire en ligne ).\n(en) Joel Mokyr, \u00ab Secular stagnation? Not in your life \u00bb, VoxEU Column, Centre for Economic Policy Research,\u200e 11 ao\u00fbt 2014 (lire en ligne ).",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Aspects linguistiques",
+    "section_path": [
+      "Voir aussi",
+      "Bibliographie",
+      "Aspects linguistiques"
+    ],
+    "content": "G\u00e9rard Sabah, L'Intelligence artificielle et le langage, Repr\u00e9sentations des connaissances, Processus de compr\u00e9hension, vol. 1, Herm\u00e8s, 1989, 768 p. (ISBN 2-86601-134-1).\nG\u00e9rard Sabah, L'Intelligence artificielle et le langage, Repr\u00e9sentations des connaissances, Processus de compr\u00e9hension, vol. 2, Paris, Herm\u00e8s, 1990, 768 p. (ISBN 2-86601-187-2).\nG\u00e9rard Sabah, Compr\u00e9hension des langues et interaction (Trait\u00e9 IC2, S\u00e9rie Cognition et Traitement de l'Information), Paris, Herm\u00e8s science: Lavoisier, 2006, 400 p. (ISBN 2-7462-1256-0).\n(en) Krzysztof Wo\u0142k, Machine learning in translation corpora processing, Boca Raton, FL, Taylor & Francis, 2019, 264 p. (ISBN 978-0-367-18673-9)",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Histoire",
+    "section_path": [
+      "Voir aussi",
+      "Bibliographie",
+      "Histoire"
+    ],
+    "content": "Daniel Crevier et Nathalie Bukcek (trad. de l'anglais), \u00c0 la recherche de l'intelligence artificielle, Paris, Flammarion, 1997, 438 p. (ISBN 2-08-081428-1) (traduction de (en) The Tumultuous history of the search for artiticial intelligence).\nNicolas Neysen, M\u00e9tamorphoses num\u00e9riques : Explorations sur l'intelligence artificielle, le m\u00e9tavers, la blockchain et le marketing d'influence, Presses universitaires de Li\u00e8ge, 2025\nYuval Noah Harari, Nexus. Une br\u00e8ve histoire des r\u00e9seaux d'information de l'\u00e2ge de pierre \u00e0 l'IA., Albin Michel, 2024, 567 p. (ISBN 978-2-226-49488-7).",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Vulgarisation",
+    "section_path": [
+      "Voir aussi",
+      "Bibliographie",
+      "Vulgarisation"
+    ],
+    "content": "G\u00e9rard Tisseau et Jacques Pitrat, Intelligence artificielle : probl\u00e8mes et m\u00e9thodes, Paris, Presses universitaires de France, 1996, 255 p. (ISBN 2-13-047429-2).\nWilliam Audureau, \u00ab Tout comprendre \u00e0 l\u2019intelligence artificielle, cette technologie source de nombreux malentendus \u00bb, sur Les D\u00e9codeurs, Le Monde, 20 avril 2024\nJack Challoner (trad. de l'anglais), L'Intelligence artificielle : Un guide d'initiation au futur de l'informatique et de la robotique, Paris, Pearson Education, 2003, 72 p. (ISBN 2-7440-1600-4).\nHugues Bersini, De l'intelligence humaine \u00e0 l'intelligence artificielle, Paris, Ellipse, 2006, 192 p. (ISBN 2-7298-2813-3).\nJean-Gabriel Ganascia, L'Intelligence artificielle, Paris, \u00c9ditions du Cavalier bleu, coll. \u00ab Idees recues \u00bb, 2007, 127 p. (ISBN 978-2-84670-165-5).\nHoward Selina (illustrations) et Henry Brighton (texte) (trad. de l'anglais), L'Intelligence artificielle en images, Les Ulis, EDP Sciences, coll. \u00ab Aper\u00e7u \u00bb, 2015, 176 p. (ISBN 978-2-7598-1772-6).\nMarion Montaigne (dessin) et Jean-No\u00ebl Lafargue (sc\u00e9nario), L'Intelligence artificielle : fantasmes et r\u00e9alit\u00e9s, Bruxelles, Le Lombard, coll. \u00ab La petite b\u00e9d\u00e9th\u00e8que des savoirs \u00bb, 2016, 72 p. (ISBN 978-2-8036-3638-9).\nArnold Z\u00e9phir (sc\u00e9nariste), FibreTigre (sc\u00e9nariste) et H\u00e9lo\u00efse Chochois, Intelligences Artificielles : Miroirs de nos vies, Delcourt, coll. \u00ab Octopus \u00bb, 6 mars 2019 (ISBN 978-2413013143)\n [vid\u00e9o] \u00ab L'IA et l'efficacit\u00e9 \u00bb, dans L'IA et moi sur Savoir m\u00e9dia, 2021, 30 min (consult\u00e9 le 31 mai 2022)\nOlivier Capp\u00e9, Tout comprendre (ou presque) sur l\u2019intelligence artificielle, CNRS \u00c9ditions, 2025 (ISBN 978-2271154255, lire en ligne)",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Liens externes",
+    "section_path": [
+      "Voir aussi",
+      "Liens externes"
+    ],
+    "content": "\u00ab Evaluation des IA : souffler dans l'algotest \u00bb, La Science, CQFD, France Culture, 11 septembre 2025.\n\u00ab IA militaire : drones de guerre \u00bb, La Science, CQFD, France Culture, 25 juin 2024.\n\u00ab Intelligence artificielle : en mon \u00e2me et conscience \u00bb, La Science, CQFD, France Culture, 1er juin 2023.\n\u00ab Intelligence artificielle \u00bb, publications en ligne, Interstices, INRIA.\n(en) European Association for Artificial Intelligence (EurAI) (Association europ\u00e9enne pour l'intelligence artificielle)\nAssociation fran\u00e7aise pour l'intelligence artificielle (AfIA).\nGDR-Radia, groupement de recherche du CNRS sur les aspects formels et algorithmiques de l'intelligence artificielle.\nDossier sur l'Intelligence artificielle, savoirs.ens.fr (conf\u00e9rences), \u00c9cole normale sup\u00e9rieure.\nS\u00e9bastien Konieczny, \u00ab L'intelligence artificielle, menace ou avanc\u00e9e ? \u00bb, Huffington Post, 9 mars 2016",
+    "is_summary": false
+  },
+  {
+    "topic": "Intelligence artificielle",
+    "source": "wikipedia",
+    "page_title": "Intelligence artificielle",
+    "page_language": "fr",
+    "page_url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+    "section_title": "Bases de donn\u00e9es et dictionnaires",
+    "section_path": [
+      "Voir aussi",
+      "Liens externes",
+      "Bases de donn\u00e9es et dictionnaires"
+    ],
+    "content": "Ressources relatives \u00e0 la recherche : Internet Encyclopedia of Philosophy Stanford Encyclopedia of Philosophy \nRessource relative \u00e0 la sant\u00e9 : Medical Subject Headings \nRessource relative \u00e0 l'audiovisuel : France 24  \n\n Portail de l\u2019intelligence artificielle   Portail de l\u2019informatique   Portail de la robotique   Portail de la science-fiction   Portail du jeu vid\u00e9o   Portail de l\u2019\u00e9conomie   Portail de la philosophie",
+    "is_summary": false
+  }
+]
